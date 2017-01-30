@@ -1,0 +1,27 @@
+The Internet/Internetwork (1969)
+-massive network of networks. Connecting computers globally.
+Inter
+-outside the boundaries
+Intra
+-inside the boundaries
+
+"nodes"--internet
+-wired or wireless
+
+DARPA (Defense Advanced Research Projects Agency)
+-store and forward
+-packet switch
+
+ARPANET (Advanced Research Projects Agency Network)
+-4 computers connected
+-first network to implement the protocol suite TCP/IP.
+
+E-mail- invented in 1972
+
+Gopher- retrieving documents over the internet
+
+The World Wide Web
+-invented in 1989 by Sir Tim Berners-Lee
+
+
+
