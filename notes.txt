@@ -23,5 +23,35 @@ Gopher- retrieving documents over the internet
 The World Wide Web
 -invented in 1989 by Sir Tim Berners-Lee
 
+HTTP- Hypertext Transfer Protocol
+-application layer communications protocol used to access resources
+-foundation of data communication for the world wide web
+- runs on top of TCP/IP
+-client-server architecture
+-uses a request-response standard protocol
+-stateless communications protocol
+*servers do not keep info about clients in-between
+
+IANA- Internet Assigned Numbers Authority
+-responsible for coordinating some of the key elements that keep the Internet running smoothly.
+
+HTTP provides support for other personalities.
+-cache control
+-content media type (MIME) Multipurpose Internet Mail Extensions
+-language and character set specification
+-content/transfer codings
+-content negotiation
+
+HTTPS
+-running in SSL/TLS (Secure Sockets Layer/Transport Layer Security)
+
+
+HTTP 0.9 (1991)
+HTTP 1.0 (RFC 1945, May 1996)
+HTTP 1.1 (RFC 2068 Jan 1997
+		  RFC 2616 Jan 1999),
+		  RFC 7230-7235 (June 2014)
+HTTP 2 	 (RFC 7540 May 2015)
+
 
 
