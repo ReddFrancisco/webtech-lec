@@ -41,6 +41,10 @@ HTTP provides support for other personalities.
 -language and character set specification
 -content/transfer codings
 -content negotiation
+-client-server protocol negotiation
+-persistent connections
+-request pipelining(1 request after another)
+-authentication/authorization
 
 HTTPS
 -running in SSL/TLS (Secure Sockets Layer/Transport Layer Security)
