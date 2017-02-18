@@ -1,0 +1,64 @@
+Lecture:
+
+-Client server protocol negotiations
+-persistent connections
+-request pipelining
+-authentication/authorization
+
+versions of Http
+-1.0
+-1.1-most prevalent
+-2.0
+
+Steps: 
+1.Establish connetions
+2.Sends the request
+3.Get the response
+4.Disconnect
+
+
+HTTP resource Addressing
+-HTTP resources are identified using URI's(RFC3986) or more specifically, HTTP URL'S(resource locator).
+-Scheme(HTTP or HTTPS) designating protocol
+
+Authority
+-uses information or authentication credentials.
+
+DNS
+-Domain Name System
+
+Host
+-domain name (resolved to an IP address using DNS) of the server where the resource resides(or will be created).
+
+Port number
+-path to resource (resolved relative to the document root on the server). May refer to a stataic/dynamic resource
+ex. /info/profile.php
+
+Query
+-typically provided as key=value pairs, with ampersand(&) separators between key/value pairs
+-maybe URL-encoded
+ex. ?d=abc&color=red&size=XL
+
+Fragment identifier
+-sometimes called as bookmark.
+-space = + - represents space
+	ex. name = john + jones
+
+-typically use in the browsers end.
+ex. #addr
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
