@@ -1,0 +1,55 @@
+Lecture:
+
+-application layer communcations protocol used to access resources like hypertext and hypermedia on the world wide web.
+
+invented by Tim Berners-Lee
+-jointly developed by the w3c (world wide web consortium) and IETF (internet Engineering Task Force).
+
+
+HTTP FUNDAMENTALS
+-HTTP runs on top of TCP/IP, using TCP prot 80 (default).
+-HTTP is based on a client server architecture.
+	-clients a.k.a client agents
+	-web browsers, web crawlers/spiders, other end user tools and applications.
+
+Socket
+-network port
+
+SSL
+-secure socket layer
+
+Digital certificate 
+-used to secure the protocol.
+-can be a "self signed certificate".
+
+SERVERS
+-origin servers
+-proxy servers, gateway, tunnel.
+
+HTTP -uses a request-response standard protocol
+-the client sends an HTTP request message to the server
+	-pull protocol
+
+HTTP2 = push protocol
+-the server processes the request and replies with an HTTP response message.
+
+HTTP is a stateless communications protocol
+-servers do not keep information about clients in-between.
+
+Polling
+-check server.
+
+HTTP support functionalities such as:
+-Cache control
+-Content media Type (MIME-Multipurpose internet Mail Extensions) specification.
+-language and character set specification.
+-content/ transfer codings.
+-content negotiation.
+			
+
+
+
+
+
+
+
