@@ -1,16 +1,35 @@
 The Internet/Internetwork (1969)
 -massive network of networks. Connecting computers globally.
+-short term for internetwork/internetworking.
 Inter
 -outside the boundaries
 Intra
 -inside the boundaries
 
+Interconnection
+-wired - coaxial, UTP, Cable
+-wireless -infrared, bluetooth, Wifi
+
+Protocols 
+-operate many devices
+
+Serial Wire 
+-one wire
+-send data one at a time
+
+IPv4 - 32bit
+IPv6 - 64bit
+
 "nodes"--internet
 -wired or wireless
 
 DARPA (Defense Advanced Research Projects Agency)
+-military agency
 -store and forward
 -packet switch
+
+Circuit Switch
+-established circuit for communication.
 
 ARPANET (Advanced Research Projects Agency Network)
 -4 computers connected
@@ -18,7 +37,20 @@ ARPANET (Advanced Research Projects Agency Network)
 
 E-mail- invented in 1972
 
+Webpage
+-documents written in HTML
+WAIS(Wide Area Information Servers) 
+-subject database
+
+
+
 Gopher- retrieving documents over the internet
+-menu documented Design
+-hierarchical design
+
+Usenet
+-online bulletin boards.
+-discussion system available on computers.
 
 The World Wide Web
 -invented in 1989 by Sir Tim Berners-Lee
