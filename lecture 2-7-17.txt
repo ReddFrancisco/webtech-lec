@@ -1,0 +1,61 @@
+Lecture:
+HTTP Request Messages
+-Request Line (CRLF – terminates line consisting three space-separated values.)
+	-Method
+	-Request URI
+	-HTTP protocol version
+*Message Headers (general, request, and entity headset)
+-HTTP 1.1 requires at least the host request header to be provided
+*Empty line (CRLF)
+*Message body – also known as payload (optional)
+
+HTTP Response
+*Status line (CRLF-terminated line consisting of 3 space separated values)
+	-HTTP protocol version
+	-Status Code
+	-Reason Phase
+*Message headers (General, response, and or entity headers)
+*Message body – also known as payload (optional)
+
+
+HTTP Request Methods
+Standard methods 
+- (GET, HEAD, POST, PUT, DELETE, OPTIONS, TRACE, CONNECT)
+
+Get
+-most commonly used HTTP method
+-Transfer a current selected representation of the resource identified by the request URL; the retrieved resource is returned in the message body at the response as an entity.
+
+Head
+-Same as GET, except that entity is not included in the response (ie returns only the status line and headers returned by a GET request, without the message body).
+- retrieves metadata about the entity implied by the request without transferring the entity itself.
+(eg. To test for link validity or resource modification).
+-Same as GET, must be supported by all general purpose server.
+
+POST
+-perform resource-specific processing of the entities enclosed in the message.
+
+Put- store the enclosed entity in the message body under the specified request URI
+Delete- remove the resource associated with the request URI
+Options- request information
+Trace- request a loop-back of the request message, used for testing/diagnostic of the request/response chain
+Connect- request the establishment of a tunnel to the destination origin server
+
+Content-length –usually in bytes.
+
+Link-rot 
+-links to an external resource, there’s a possibility that somebody will rot your website and it will be a broken link.
+
+
+
+
+HTTP Message Headers
+•	Cache control- local storage
+•	Connection
+•	Date
+•	Pragma
+•	Trailer
+•	Transfer-Encoding
+•	Upgrade protocol negotiation
+•	Via
+•	Warning
