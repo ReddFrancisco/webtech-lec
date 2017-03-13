@@ -1,0 +1,44 @@
+HTML -Hypertext markup language
+- markup language
+  - marking up a text with meaning
+- used to create web pages
+- focus on content and structure
+- current HTML (5.1)
+
+Web pages
+- HTML file
+-
+-
+
+DOM
+-static
+
+
+CSS -presentational/aesthetics
+
+HTML time table
+
+1989 - HTML 1.0
+1994 - HTML 2.0 -RFC 1866
+       HTML 3.0 W3C
+	    3.2
+1997 - HTML 4.0
+1998	    4.1
+
+2000 - XHTML 1.0
+	     1.1
+	     2.0
+2014 - HTML5 
+
+XHTML- extensive hypertext markup language
+
+XML
+- extensible markup language
+- data interchange
+- represent standard data
+- text-based representation
+- rules are very strict: case sensitive
+
+Ian Hickson
+- WHATWG
+- decided to join html5
