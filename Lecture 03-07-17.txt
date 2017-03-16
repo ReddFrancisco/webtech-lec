@@ -1,0 +1,34 @@
+CASCADING STYLE SHEET (CSS)
+	- presentation aspects
+	- developed by HAKON WIUM LIE (CHSS) and BERT BOS (SSP)
+
+* versions
+	- CSS 1
+ 	- CSS 2.1
+	- CSS 3
+
+CSS PREPORCESSORS, CSS FRAMEWORKS
+	- SASS
+	- Less
+	- Foundation
+	- 960 Grid System
+	- Bootsrap
+	- Materialize
+	- etc.
+
+HTML/XHTML
+- Author Styles 
+	- authors intention on how to present it
+	- external stylesheets (recommended)
+		- <link rel>
+	- inline styles
+		- <p> - put it in element itself
+   > @ rules - CSS-tricks (search on this)
+   > CSS Rule sets ( aka CSS Rules, Styles Rules)
+	- consists of selector (most important)
+	   - selector syntax
+		- chain of one or more sequences of simple selectors separated by comminatory, with 1 pseudo element possibly appended in the last sequence
+	   -
+- User styles
+- User agent styles
+	ex. default CSS 2.1 stylesheet for HTML 4
