@@ -1,4 +1,5 @@
 CASCADING STYLE SHEET (CSS)
+	- language used to specify the presentation aspects of structurally marked up documents
 	- presentation aspects
 	- developed by HAKON WIUM LIE (CHSS) and BERT BOS (SSP)
 
@@ -24,7 +25,16 @@ HTML/XHTML
 	- inline styles
 		- <p> - put it in element itself
    > @ rules - CSS-tricks (search on this)
-   > CSS Rule sets ( aka CSS Rules, Styles Rules)
+   > @ at-rules
+   > @charset
+   > @import
+   > @namespace
+   > @document
+   > @font-face
+   > @keyframes - for animation
+   > @media
+   > @supports
+ - CSS Rule sets ( aka CSS Rules, Styles Rules)
 	- consists of selector (most important)
 	   - selector syntax
 		- chain of one or more sequences of simple selectors separated by comminatory, with 1 pseudo element possibly appended in the last sequence
@@ -32,3 +42,23 @@ HTML/XHTML
 - User styles
 - User agent styles
 	ex. default CSS 2.1 stylesheet for HTML 4
+
+CSS selectors
+*Selectors
+	- structure used as a condition in a CSS Rule to determine which elements in the document tree are matched by a selector.
+*Selector Syntax
+	- Chain of 1 or more sequences  of simple selectors separated y combinators.
+
+dir#abc>p.xyz[title]+span:last-of-type::after
+
+Parts:
+dir           – type selector
+#abc          – ID Selector
+>             - Combinators
+p             – paragraph (type)
+.xyz          – class selector
++             - adjacent
+span          – type selector
+:last-of-type – pseudo class
+::after       – pseudo element
+
