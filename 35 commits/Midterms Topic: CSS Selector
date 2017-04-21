@@ -1,0 +1,58 @@
+----------CSS Selector----------
+
+- structure used as a condition in a CSS rule
+
+----------Simple Selector----------
+    - type selector
+    - universal selector
+    - attribute selector
+       a) ~ - value
+       b) | - language
+       c) ^ - if value starts with
+       d) $ - if value ends with
+       e) * - if value contains
+    - class selector
+    - id selectors 
+
+----------Pseudo Class----------
+
+a) Dynamic Pseudo Class
+  - link
+  - visited
+  
+b) User Action Pseudo-Class
+  - :hover
+  - :active
+  - :focus
+
+c) Target Pseudo-Class 
+  - :target
+
+d) Language Pseudo-Class 
+  - :lang
+
+e) UI Element states Pseudo-Class
+  - :enabled
+  - :disabled
+  - :checked
+  - :indeterminate
+f) Sructural Pseudo-Classes
+  - :root
+  - :first-child
+  - :last-child
+  - :only-child
+  - :nth-child()
+  - :nth-last-child()
+  - :first-of-type
+  - :last-of-type
+  - :nth-last-of-type
+  - :empty
+
+g) Negation pseudo-class
+  - :not()
+
+----------Pseudo Elements----------
+ - :first letter
+ - :first line
+ - :After
+ - :Before
