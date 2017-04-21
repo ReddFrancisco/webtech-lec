@@ -1,0 +1,13 @@
+JavaScript is:
+- imperative
+- object oriented
+- properties can be overriden
+- dynamic variables
+
+var - accessible outside the block and can be declared
+let - cannot be declared and cannot be used outside a block
+const - same behaviro as let but you cannot modify it
+
+Two Types in JavaScript:
+1. simple / primitive
+2. object
