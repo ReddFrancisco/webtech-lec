@@ -5,16 +5,24 @@ HTML -Hypertext markup language
 - focus on content and structure
 - current HTML (5.1)
 
+History
+- developed by Tim Berners-Lee
+
+
 Web pages
 - HTML file
--
--
+- Content that is marked up properly
+- w3c word wide web consortium -1995 developed
+- w3c recommendation official documents.
+
 
 DOM
 -static
 
 
-CSS -presentational/aesthetics
+CSS 
+-presentational/aesthetics
+- for layouts, color, alignments and other's.
 
 HTML time table
 
