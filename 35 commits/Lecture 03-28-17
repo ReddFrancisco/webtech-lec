@@ -1,13 +1,28 @@
 JavaScript is:
-- imperative
+- imperative programming language
 - object oriented
 - properties can be overriden
-- dynamic variables
+- just like java an c# 
+- storing data in  a variable 
+- weakly-typed language
 
+3 keyword
 var - accessible outside the block and can be declared
 let - cannot be declared and cannot be used outside a block
 const - same behaviro as let but you cannot modify it
 
+
+A constant
+- same behavior
+- cannot be represent its variable
+- it is contstant
+
 Two Types in JavaScript:
 1. simple / primitive
 2. object
+
+Primitive Types
+Boolean
+-Falsy value
+undefined
+ - anything that is undefined like null, 0 ,none
