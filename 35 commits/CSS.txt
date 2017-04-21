@@ -1,0 +1,41 @@
+CSS
+-language used to specify presentation aspects
+-Hakon Wium Lie (CHSS) and Bert Bos(SSP)
+
+versions:
+CSS1 - Dec. 17,1996
+CSS2.1 -
+CSS3 -
+
+CSS preprocessors, CSS frameworks
+-Sass, Less, 960 Grid System, Bootstrap, Foundation, Materialize
+
+HTML/XHTML Stylesheets
+a.author styles- external stylesheets, embedded styles(inside the html), inline styles(inside the element)
+b.user style
+c.user agent styles(example default CSS 2.1 stylesheet for HTML 4)
+
+CSS statements
+At-Rules
+  @charset
+  @import
+  @namepace
+  @document
+  @font-face
+  @keyframe-animation
+  @media
+  @page
+CSS Rule sets
+-a selector, for declaration block
+
+Selector syntax
+-chain of one or more sequences of simple selectors separated by combinators, with one pseudo-element 
+possibly appended to the last sequence
+  
+  dir#abc>p.xyztHe+span:last-of-type::after
+dir- type
+#abc- id
+>p.xyztHe- combinations
+::after - pseudo-element
+
+

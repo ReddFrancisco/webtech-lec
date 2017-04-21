@@ -1,0 +1,113 @@
+JAVASCRIPT
+
+Standard ECMA-262
+ECMAScript ® 2016 Language Specification
+7th Edition (June 2016)
+
+3 different ways of linking javascript
+1. External Script
+ ex. <script type = 'text/javascript' src = 'script.js'> 
+     </script>
+
+ > defer - bottom part
+ > async - upper middle par
+
+2. Embedded Script
+ ex. <script>
+        console log();
+
+        function callMe(){
+        }
+
+     </script>
+
+3. Inline script
+ ex. <button onclick = 'console.log("inline script");'>click me</button>
+ > onclick - event attribute
+ > inline script should be inside the body element
+
+defer -block execution of page, till the rendering of page is finish. then it will execute
+async -as soon as the script becomes available it will be executed.
+
+*it cannot be both used.
+
+ENVIRONMENT
+
+window 
+  -global object
+
+window.document
+
+example:
+h.lang = 'en.US'
+h.textContent -prints as literal value
+h.innerText -print as literal value
+h.innerHTML -can do markup
+h.outerText -can do markup
+h.outerHTML
+h.data-extra
+
+h.setAttribute ("data-ex", "value")
+h.getAttribute ("data-ex", "value")
+
+h.style = "color:blue"
+OR 
+h.style.color = "red"
+
+h.style.font-size = '2em' 
+-> this is the WRONG way.
+h.style.fontSize = '2em' 
+-> this is the RIGHT way.
+
+Set class attribute
+h.className = "green-text"
+
+
+Retrieve Document 
+Document.getElementById
+Document.getElementByTagName
+
+Another way of retrieving document
+document.querySelector('p')
+document.querySelectorAll('p')
+
+Checking
+p.matches('h1')
+p.matches('body, p')
+returns true,false if it matches
+
+<p> - an example of element node
+"text" - an example of a text node
+
+<input type="button" name = "buttons">
+name is an example of Attr Node
+
+document.childNodes
+document.children
+document.childElementCount
+document.hasChildNodes()
+	returns true
+
+
+document.body.firstChild
+document.body.firstElementChild
+document.nextSibling
+document.nextElementSibling
+document.parentNode
+document.parentElement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
