@@ -2,6 +2,7 @@ CASCADING STYLE SHEET (CSS)
 	- language used to specify the presentation aspects of structurally marked up documents
 	- presentation aspects
 	- developed by HAKON WIUM LIE (CHSS) and BERT BOS (SSP)
+	- css can be used in oral formatting.
 
 * versions
 	- CSS 1
@@ -12,18 +13,27 @@ CSS PREPORCESSORS, CSS FRAMEWORKS
 	- SASS
 	- Less
 	- Foundation
-	- 960 Grid System
+	- 960 Grid System -provides predefined format
 	- Bootsrap
 	- Materialize
 	- etc.
+	-frameworks - provides set of themes
+	
 
 HTML/XHTML
+	Sources of styles
 - Author Styles 
 	- authors intention on how to present it
 	- external stylesheets (recommended)
 		- <link rel>
 	- inline styles
 		- <p> - put it in element itself
+Reset CSS - create style sheet and apply or link to project, this will override the user agent style		
+		
+css types of media (css 3)
+	-screen, print, speech	
+	
+CSS Statements	
    > @ rules - CSS-tricks (search on this)
    > @ at-rules
    > @charset
@@ -39,8 +49,11 @@ HTML/XHTML
 	   - selector syntax
 		- chain of one or more sequences of simple selectors separated by comminatory, with 1 pseudo element possibly appended in the last sequence
 	   -
-- User styles
-- User agent styles
+User styles
+-depends on the browser
+-style that user is browsing the site.
+User agent styles
+	-embedded 
 	ex. default CSS 2.1 stylesheet for HTML 4
 
 CSS selectors
