@@ -1,6 +1,7 @@
 ----------CSS Selector----------
 
-- structure used as a condition in a CSS rule
+- structure used as a condition in a CSS rule to determine which elements in the document tree are matched by the selector
+and are thus targeted by the formatting specified in the CSS rule declaration block.
 
 ----------Simple Selector----------
     - type selector
@@ -50,6 +51,15 @@ f) Sructural Pseudo-Classes
 
 g) Negation pseudo-class
   - :not()
+
+
+Combinators
+descendant combinator (whitespace)
+child combinator >
+sibling combinator
+    >adjacent sibling combinator + h1 + p (some parent)
+    >general sibling combinator ~ h1~p
+
 
 ----------Pseudo Elements----------
  - :first letter
