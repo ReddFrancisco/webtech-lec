@@ -1,0 +1,20 @@
+CSS Declaration
+
+a) properties
+   -  shorthand properties
+   -  vendor specific extensions (vendor-prefix)
+   
+b) values
+   @keywords
+   @numbers 
+     :z-index
+   @dimensions 
+     - numbers with units
+     - lengths, angles, duration, frequency, and resolution
+     - length units
+   @percentages
+   @URLs and URIs
+   @colors
+   @strings
+   @functions
+     : calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate(), etc.
