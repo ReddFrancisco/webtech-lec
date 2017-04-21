@@ -1,0 +1,17 @@
+CSS Rules Precedence
+
+a) By Origin and Importance
+- User Agent importance declaration
+- User important declaration
+- Author importance declaration
+- Author Normal declaration
+- User normal declaration
+- user agent normal declaration
+
+b) By Specificity
+- inline style
+- number of ID selectors
+- number of class selectors
+- number of type selectors and pseudo-elements
+
+c) By Order
