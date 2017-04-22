@@ -15,6 +15,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- main CSS -->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
 
 
 </head>
@@ -61,24 +64,48 @@
         </div>
         <!-- /.container -->
     </nav>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1><b>Webtek Prelim Notes
-                </b></h1>
-            </div>
+	
+	<div id="sidenav" class="sidenav">
+        <h3>Outline</h3>
+        <hr>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <div class="outlines">
+            <a href="#theInternet">The Internet</a>
+            <a href="#worldWideWeb">World Wide Web</a>
+            <a href="#wais">WAIS</a>
+            <a href="#darpa">DARPA</a> 
+            <a href="#arpanet">ARPANET</a>
+            <a href="#iana">IANA</a>
+            <a href="#email">E-mail</a>
+            <a href="#html">HTML</a>
+            <a href="#http"">HTTP</a>
+            <a href="#https">HTTPS</a>
+            <a href="#cs-steps">Client-Server Steps</a>
         </div>
-        <!-- /.row -->
+    </div>
 
-        <!-- Intro Content -->
-        <div class="row">
-            <div class="col-md-12">
+    <!-- Use any element to open the sidenav -->
+    <span class="btn btn-default btn-fixed"onclick="openNav()"><span class="glyphicon glyphicon-th-list"> Outline</span></span>
+
+	<div id="main">
+	
+		<!-- Page Content -->
+		<div class="container">
+
+			<!-- Page Heading/Breadcrumbs -->
+			<div class="row">
+				<div class="col-lg-12">
+					<h1><b>Webtek Prelim Notes
+					</b></h1>
+				</div>
+			</div>
+			<!-- /.row -->
+
+			<!-- Intro Content -->
+			<div class="row">
+				<div class="col-md-12">
 			
-<h2>The Internet</h2>
+<h2 id="theInternet">The Internet</h2>
 <hr>
 <pre>
 - Internet is a massive network of networks.
@@ -100,7 +127,7 @@
        - Discussion system available on computers.
 </pre>			
 			
-<h2>World Wide Web</h2>
+<h2 id="worldWideWeb">World Wide Web</h2>
 <hr>
 <pre>
 - Invented in 1989 by Sir <b>Tim Berners-Lee</b>
@@ -111,7 +138,7 @@
 </pre>
 
 
-<h2>WAIS(Wide Area Information Servers)</h2>
+<h2 id="wais">WAIS(Wide Area Information Servers)</h2>
 <hr>
 <pre>
 - Developed late 1980's
@@ -119,7 +146,7 @@
   to search index databases on remote computers.
 </pre>
 
-<h2>DARPA(Defense Advance Research Projects Agency</h2>  
+<h2 id = "darpa">DARPA(Defense Advance Research Projects Agency</h2> 
 <hr>  
 <pre>
 - A military agency
@@ -127,7 +154,7 @@
             
 <b>Circuit switch</b> - established circuit for communication.
 </pre>    
-<h2>ARPANET(Advance Research Projects Agency Network)</h2>   
+<h2 id="arpanet">ARPANET(Advance Research Projects Agency Network)</h2> 
 <hr>
 <pre>
 Technologies that became foundation of the internet
@@ -135,16 +162,16 @@ Technologies that became foundation of the internet
 - Early packet switching network.
 </pre>   
 
-<h2>IANA(Internet Assigned Numbers Authority)</h2>
+<h2 id="iana">IANA(Internet Assigned Numbers Authority)</h2>
 <pre>
 - controls numbers for protocols, the Country Code Top Level Domains and 
  maintains the IP Address allotments
 </pre>
         
-<h2>E-mail(1972)</h2>
+<h2 id="email">E-mail(1972)</h2>
 <hr>
 <pre>- E-mail is a method of exchanging digital messages across people by using a device such as computer.</pre>
-<h2>HTML(Hypertext Markup Language)</h2>   
+<h2 id="html">HTML(Hypertext Markup Language)</h2> 
 <hr>             
 <pre>
 - Markup language used to create web pages
@@ -160,7 +187,7 @@ Technologies that became foundation of the internet
 <pre>Webpage documents written in HTML</pre>
     
 </ul>    
-<h2>HTTP(Hypertext Transfer Protocol)</h2> 
+<h2 id="http">HTTP(Hypertext Transfer Protocol)</h2> 
 <hr>   
 <pre>- Foundation of data communication for the word wide web.
 - Application layer communication protocol used to access resources.
@@ -170,13 +197,13 @@ Technologies that became foundation of the internet
 - A Stateless communications protocol.
 </pre>
 
-<h2>HTTPS</h2> 
+<h2 id="https">HTTPS</h2> 
 <hr>   
 <pre>
 - HTTP that is running on a SSL/TLS (Secure Sockets Layer/Transport Layer Security)  
 </pre>  
 
-<h2>Client-Server Steps</h2>  
+<h2 id="cs-steps">Client-Server Steps</h2>
 <hr>
 <pre>
 1. Connection
@@ -405,24 +432,25 @@ Standard Methods:(<b>GET,HEAD,POST,PUT,DELETE,OPTIONS,TRACE,CONNECT</b>)
 </pre>        
 </ul>               
                 
-            </div>
-        </div>
-		
-		<div class="well">
-            <div class="row">
-                <div class="col-md-12">
-                    <p><b>Additional Notes taken from:</b></p>
-					<p>https://en.wikipedia.org/wiki/Wide_area_information_server</p>
-					<p>https://en.wikipedia.org/wiki/DARPA</p>
-					<p>https://en.wikipedia.org/wiki/ARPANET</p>
-					<p>https://en.wikipedia.org/wiki/Email</p>
-					<p>https://en.wikipedia.org/wiki/Gopher_(protocol)</p>
-					<p>https://www.w3.org/TR/WD-html40-970917/htmlweb.html</p>
-					<p>https://kb.iu.edu/d/abwp</p>
-					<p>https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#1xx_Informational_responses</p>
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+			
+			<div class="well">
+				<div class="row">
+					<div class="col-md-12">
+						<p><b>Additional Notes taken from:</b></p>
+						<p>https://en.wikipedia.org/wiki/Wide_area_information_server</p>
+						<p>https://en.wikipedia.org/wiki/DARPA</p>
+						<p>https://en.wikipedia.org/wiki/ARPANET</p>
+						<p>https://en.wikipedia.org/wiki/Email</p>
+						<p>https://en.wikipedia.org/wiki/Gopher_(protocol)</p>
+						<p>https://www.w3.org/TR/WD-html40-970917/htmlweb.html</p>
+						<p>https://kb.iu.edu/d/abwp</p>
+						<p>https://en.wikipedia.org/wiki/List_of_HTTP_status_codes#1xx_Informational_responses</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		
         <!-- Footer -->
@@ -436,7 +464,7 @@ Standard Methods:(<b>GET,HEAD,POST,PUT,DELETE,OPTIONS,TRACE,CONNECT</b>)
 
     </div>
 
-
+	<script type="text/javascript" src="js/main.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
