@@ -1,5 +1,23 @@
 MIDTERMS
 
+HTML -Hypertext markup language
+- markup language
+  - marking up a text with meaning
+- used to create web pages
+- focus on content and structure
+- current HTML (5.1)
+
+History
+- developed by Tim Berners-Lee
+
+
+Web pages
+- HTML file
+- Content that is marked up properly
+- w3c word wide web consortium -1995 developed
+- w3c recommendation official documents.
+
+
 CSS
 
 Cascading Style Sheets
@@ -744,6 +762,7 @@ JavaScript is:
 - just like java an c# 
 - storing data in  a variable 
 - weakly-typed language
+- Client side scripting which is associated with the web pages, it is by far the most used client side .
 
 3 keyword
 var - accessible outside the block and can be declared
