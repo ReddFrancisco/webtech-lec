@@ -361,7 +361,547 @@ Example: dir#abc>p.xyz[title]+span:last-of-type::after
        : calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate(), etc.
 </pre>
 </ul>
+<h2>XHTML Style Sheets</h2>
+<ul>
+<li>Author Styles</li>
+<pre>
+- external stylesheets, embedded styles(inside the html), inline styles(inside the element)
 
+    * external stylesheets
+    * embedded styles
+    * inline styles
+        - Persistent
+        - Preferred
+        - Alternate
+</pre>
+<li>User Styles</li>
+<pre>
+- depends on the browser
+- style that user is browsing the site.
+</pre>
+<li>User agent styles (ex: default css2.1 stylesheet for html4)</li>
+<pre>
+-embedded
+</pre>
+<li>Reset CSS</li>
+<pre>
+- create style sheet and apply or link to project, this will override the user agent style
+</pre>
+</ul>
+<h2>JAVASCRIPT</h2>
+<ul>
+<pre>
+- imperative programming language
+- object oriented
+- properties can be overriden
+- just like java an c# 
+- storing data in  a variable 
+- weakly-typed language
+- Client side scripting which is associated with the web pages, it is by far the most used client side .
+</pre>
+<li>3 keyword</li>
+<pre>
+var - accessible outside the block and can be declared
+let - cannot be declared and cannot be used outside a block
+const - same behaviro as let but you cannot modify it
+</pre>
+<li>A constant</li>
+<pre>
+- same behavior
+- cannot be represent its variable
+- it is contstant
+</pre>
+<li>Two Types in Javascript</li>
+<pre>
+1. simple / primitive
+2. object
+</pre>
+<li>Primitive Types</li>
+<pre>
+Boolean
+ -Falsy value
+Undefined
+ - anything that is undefined like null, 0 ,none
+
+</pre>
+<li>3 Different Ways of linking javascript</li>
+<ul>
+<li>External Script</li>
+<pre>
+ex. < script type = 'text/javascript' src = 'script.js' >
+    < /script >(remove all spaces inside the tag)
+ > defer - bottom part
+ > async - upper middle par
+ > normal
+</pre>
+<li>Embedded Script</li>
+<pre>
+ex. < script >
+        console log();
+        function callMe(){
+        }
+    < /script > (remove all spaces inside the tag)
+</pre>
+<li>Inline Script</li>
+<pre>
+ex. < button onclick = 'console.log("inline script");'>
+    click me 
+    < /button > (remove all spaces inside the tag)
+ > onclick - event attribute
+ > inline script should be inside the body element
+
+defer -block execution of page, till the rendering of page is finish. then it will execute
+async -as soon as the script becomes available it will be executed.
+
+*it cannot be both used.
+</pre>
+</ul>
+</ul>
+<h2>Interface Definition Language (IDL)</h2>
+<pre>-definition of a data type</pre>
+<h2>Node Interface</h2>
+<pre>
+-primary datatype for the entire DOM
+-represent a single node in the document tree
+-all the nodes have their own characteristics.
+</pre>
+<h2>Environment</h2>
+<ul>
+<li>Window</li>
+<pre>
+-global object
+
+navigator - vendor, appVersion
+screen
+window.document
+
+example:
+h.lang = 'en.US'
+h.textContent -prints as literal value
+h.innerText -print as literal value
+h.innerHTML -can do markup
+h.outerText -can do markup
+h.outerHTML
+h.data-extra
+
+h.setAttribute ("data-ex", "value")
+h.getAttribute ("data-ex", "value")
+
+h.style = "color:blue"
+OR 
+h.style.color = "red"
+
+h.style.font-size = '2em' 
+-> this is the RIGHT way.
+h.style.fontSize = '2em' 
+-> this is the WRONG way.
+</pre>
+<li>Retrieve Document</li>
+<pre>
+Document.getElementById
+Document.getElementByTagName
+
+Another way of retrieving document
+document.querySelector('p')
+document.querySelectorAll('p')
+</pre>
+<li>Checking</li>
+<pre>
+p.matches('h1')
+p.matches('body, p')
+returns true,false if it matches
+
+"< p >" - an example of element node
+"text" - an example of a text node
+
+< input type="button" name = "buttons"
+name is an example of Attr Node >
+</pre>
+<li>Nonscript Element</li>
+<pre>
+- represent nothing if scripting is enabled, and represents its children if scripting is disabled.
+- used to present different markup to user agents that support scripting.
+</pre>
+<li>"Sandbox"</li>
+<pre>
+- enables an extra set of restrictions for the content in the iframe.
+</pre>
+<li>Window Object</li>
+<pre>
+-global object of browsers
+</pre>
+<li>Document Object</li>
+<pre>
+- you can access everything
+- when an HTML Document is loaded into a web browser.
+</pre>
+<li>**Properties and Methods of**</li>
+<pre>
+document.activeElement
+    - Returns the currently focused element in the document
+  document.addEventListener()
+    - Attaches an event handler to the document
+  document.adoptNode()
+    - Adopts a node from another document
+  document.anchors  
+    - Returns a collection of all < a > elements in the document that have a name attribute
+  document.applets
+    - Returns a collection of all < applet > elements in the document
+  document.baseURI
+    - Returns the absolute base URI of a document
+  document.body 
+    - Sets or returns the document's body (the < body > element)
+  document.close()
+    - Closes the output stream previously opened with document.open()
+  document.cookie   
+    - Returns all name/value pairs of cookies in the document
+  document.charset  
+    - Deprecated. Use document.characterSet instead. Returns the character encoding for the document
+  document.characterSet 
+    - Returns the character encoding for the document
+  document.createAttribute()    
+    - Creates an attribute node
+  document.createComment()
+    - Creates a Comment node with the specified text
+  document.createDocumentFragment()
+    - Creates an empty DocumentFragment node
+  document.createElement()
+    - Creates an Element node
+  document.createTextNode()
+    - Creates a Text node
+  document.doctype
+    - Returns the Document Type Declaration associated with the document
+  document.documentElement
+    - Returns the Document Element of the document (the < html > element)
+  document.documentMode
+    - Returns the mode used by the browser to render the document
+  document.documentURI
+    - Sets or returns the location of the document
+  document.domain
+    - Returns the domain name of the server that loaded the document
+  document.domConfig
+    - Obsolete. Returns the DOM configuration of the document
+  document.embeds
+    - Returns a collection of all < embed > elements the document
+  document.forms
+    - Returns a collection of all < form > elements in the document
+  document.getElementById()
+    - Returns the element that has the ID attribute with the specified value
+  document.getElementsByClassName()
+    - Returns a NodeList containing all elements with the specified class name
+  document.getElementsByName()
+    - Returns a NodeList containing all elements with a specified name
+  document.getElementsByTagName()
+    - Returns a NodeList containing all elements with the specified tag name
+  document.hasFocus()
+    - Returns a Boolean value indicating whether the document has focus
+  document.head
+    - Returns the < head > element of the document
+  document.images
+    - Returns a collection of all < img > elements in the document
+  document.implementation
+    - Returns the DOMImplementation object that handles this document
+  document.importNode()
+    - Imports a node from another document
+  document.inputEncoding
+    - Returns the encoding, character set, used for the document
+  document.lastModified
+    - Returns the date and time the document was last modified
+  document.links
+    - Returns a collection of all < a > and < area > elements in the document that have a href attribute
+  document.normalize()
+    - Removes empty Text nodes, and joins adjacent nodes
+  document.normalizeDocument()
+    - Removes empty Text nodes, and joins adjacent nodes
+  document.open()
+    - Opens an HTML output stream to collect output from document.write()
+  document.querySelector()
+    - Returns the first element that matches a specified CSS selector(s) in the document
+  document.querySelectorAll()
+    - Returns a static NodeList containing all elements that matches a specified CSS selector(s) in the document
+  document.readyState
+    - Returns the (loading) status of the document
+  document.referrer
+    - Returns the URL of the document that loaded the current document
+  document.removeEventListener()
+    - Removes an event handler from the document (that has been attached with the addEventListener() method)
+  document.renameNode()
+    - Renames the specified node
+  document.scripts
+    - Returns a collection of < script > elements in the document
+  document.strictErrorChecking
+    - Sets or returns whether error-checking is enforced or not
+  document.title
+    - Sets or returns the title of the document
+  document.URL
+    - Returns the full URL of the HTML document
+  document.write()
+    - Writes HTML expressions or JavaScript code to a document
+  document.writeln()
+    - Same as write(), but adds a newline character after each statement 
+</pre>
+</ul>
+<h2>DOMC</h2>
+<pre>
+-Document Object Model Core
+</pre>
+<h2>Element Object</h2>
+<pre>
+-represents an HTML element
+</pre>
+<h2>NodeList Object</h2>
+<pre>
+- represents a list of nodes.
+</pre>
+<li>**Properties and Methods**</li>
+<pre>
+element.accessKey  
+    - Sets or returns the accesskey attribute of an element
+element.addEventListener()
+    - Attaches an event handler to the specified element
+element.appendChild()
+    - Adds a new child node, to an element, as the last child node
+element.attributes
+    - Returns a NamedNodeMap of an element's attributes
+element.blur()
+    - Removes focus from an element
+element.childElementCount 
+    - Returns the number of child elements an element has
+element.childNodes
+    - Returns a collection of an element's child nodes (including text and comment nodes)
+element.children
+    - Returns a collection of an element's child element (excluding text and comment nodes)
+element.classList 
+    - Returns the class name(s) of an element
+element.className 
+    - Sets or returns the value of the class attribute of an element
+element.click()   
+    - Simulates a mouse-click on an element
+element.clientHeight  
+    - Returns the height of an element, including padding
+element.clientLeft    
+    - Returns the width of the left border of an element
+element.clientTop 
+    - Returns the width of the top border of an element
+element.clientWidth   
+    - Returns the width of an element, including padding
+element.cloneNode()   
+    - Clones an element
+element.compareDocumentPosition() 
+    - Compares the document position of two elements
+element.contains()    
+    - Returns true if a node is a descendant of a node, otherwise false
+element.contentEditable   
+    - Sets or returns whether the content of an element is editable or not
+element.dir   
+    - Sets or returns the value of the dir attribute of an element
+element.firstChild    
+    - Returns the first child node of an element
+element.firstElementChild 
+    - Returns the first child element of an element
+element.focus()   
+    - Gives focus to an element
+element.getAttribute()    
+    - Returns the specified attribute value of an element node
+element.getAttributeNode()    
+    - Returns the specified attribute node
+element.getElementsByClassName()  
+    - Returns a collection of all child elements with the specified class name
+element.getElementsByTagName()    
+    - Returns a collection of all child elements with the specified tag name
+element.getFeature()  
+    - Returns an object which implements the APIs of a specified feature
+element.hasAttribute()    
+    - Returns true if an element has the specified attribute, otherwise false
+element.hasAttributes()   
+    - Returns true if an element has any attributes, otherwise false
+element.hasChildNodes()   
+    - Returns true if an element has any child nodes, otherwise false
+element.id    
+    - Sets or returns the value of the id attribute of an element
+element.innerHTML 
+    - Sets or returns the content of an element
+element.insertBefore()    
+    - Inserts a new child node before a specified, existing, child node
+element.isContentEditable 
+    - Returns true if the content of an element is editable, otherwise false
+element.isDefaultNamespace()  
+    - Returns true if a specified namespaceURI is the default, otherwise false
+element.isEqualNode() 
+    - Checks if two elements are equal
+element.isSameNode()  
+    - Checks if two elements are the same node
+element.isSupported() 
+    - Returns true if a specified feature is supported on the element
+element.lang  
+    - Sets or returns the value of the lang attribute of an element
+element.lastChild 
+    - Returns the last child node of an element
+element.lastElementChild  
+    - Returns the last child element of an element
+element.namespaceURI  
+    - Returns the namespace URI of an element
+element.nextSibling   
+    - Returns the next node at the same node tree level
+element.nextElementSibling    
+    - Returns the next element at the same node tree level
+element.nodeName  
+    - Returns the name of a node
+element.nodeType  
+    - Returns the node type of a node
+element.nodeValue 
+    - Sets or returns the value of a node
+element.normalize()   
+    - Joins adjacent text nodes and removes empty text nodes in an element
+element.offsetHeight  
+    - Returns the height of an element, including padding, border and scrollbar
+element.offsetWidth   
+    - Returns the width of an element, including padding, border and scrollbar
+element.offsetLeft    
+    - Returns the horizontal offset position of an element
+element.offsetParent  
+    - Returns the offset container of an element
+element.offsetTop 
+    - Returns the vertical offset position of an element
+element.ownerDocument 
+    - Returns the root element (document object) for an element
+element.parentNode    
+    - Returns the parent node of an element
+element.parentElement 
+    - Returns the parent element node of an element
+element.previousSibling
+    - Returns the previous node at the same node tree level
+element.previousElementSibling
+    - Returns the previous element at the same node tree level
+element.querySelector()   
+    - Returns the first child element that matches a specified CSS selector(s) of an element
+element.querySelectorAll()    
+    - Returns all child elements that matches a specified CSS selector(s) of an element
+element.removeAttribute() 
+    - Removes a specified attribute from an element
+element.removeAttributeNode() 
+    - Removes a specified attribute node, and returns the removed node
+element.removeChild() 
+    - Removes a child node from an element
+element.replaceChild()    
+    - Replaces a child node in an element
+element.removeEventListener()
+    - Removes an event handler that has been attached with the addEventListener() method
+element.scrollHeight
+    - Returns the entire height of an element, including padding
+element.scrollIntoView()  
+    - Scrolls the specified element into the visible area of the browser window
+element.scrollLeft    
+    - Sets or returns the number of pixels an element's content is scrolled horizontally
+element.scrollTop 
+    - Sets or returns the number of pixels an element's content is scrolled vertically
+element.scrollWidth
+    - Returns the entire width of an element, including padding
+element.setAttribute()
+    - Sets or changes the specified attribute, to the specified value
+element.setAttributeNode()    
+    - Sets or changes the specified attribute node
+element.style 
+    - Sets or returns the value of the style attribute of an element
+element.tabIndex
+    - Sets or returns the value of the tabindex attribute of an element
+element.tagName
+    - Returns the tag name of an element
+element.textContent
+    - Sets or returns the textual content of a node and its descendants
+element.title
+    - Sets or returns the value of the title attribute of an element
+element.toString()
+    - Converts an element to a string
+nodelist.item()   
+    - Returns the node at the specified index in a NodeList
+nodelist.length
+    - Returns the number of nodes in a NodeList
+</pre>
+<h2>Attr Object</h2>
+<ul>
+<pre>
+-represents an HTML attribute
+</pre>
+<li>**Properties and Methods**</li>
+<pre>
+attr.isId   
+    - Returns true if the attribute is of type Id, otherwise it returns false
+attr.name
+    - Returns the name of an attribute
+attr.value    
+    - Sets or returns the value of the attribute
+attr.specified
+    - Returns true if the attribute has been specified, otherwise it returns false
+nodemap.getNamedItem()
+    - Returns a specified attribute node from a NamedNodeMap
+nodemap.item()
+    - Returns the attribute node at a specified index in a NamedNodeMap
+nodemap.length
+    - Returns the number of attribute nodes in a NamedNodeMap
+nodemap.removeNamedItem()
+    - Removes a specified attribute node
+nodemap.setNamedItem()    
+    - Sets the specified attribute node (by name)
+</pre>  
+<li>**Properties and Methods - attr with reason to avoid**</li>
+<pre>
+attr.appendChild()    
+    - Attributes don't have child nodes
+attr.attributes
+    - Attributes don't have attributes
+attr.baseURI  
+    - use document.baseURI instead
+attr.childNodes
+    - Attributes don't have child nodes
+attr.cloneNode()
+    - Get or set the attr.value instead
+attr.firstChild   
+    - Attributes don't have child nodes
+attr.hasAttributes()  
+    - Attributes don't have attributes
+attr.hasChildNodes    
+    - Attributes don't have child nodes
+attr.insertBefore()   
+    - Attributes don't have child nodes
+attr.isEqualNode()
+    - Makes no sense
+attr.isSameNode()
+    - Makes no sense
+attr.isSupported()
+    - Is always true
+attr.lastChild
+    - Attributes don't have child nodes
+attr.nextSibling
+    - Attributes don't have siblings
+attr.nodeName
+    - Use attr.name instead
+attr.nodeType 
+    - This is always 2 (ATTRIBUTE_NODE)
+attr.nodeValue
+    - Use attr.value instead
+attr.normalize()  
+    - Attributes cannot be normalized
+attr.ownerDocument
+    - This is always your HTML document
+attr.ownerElement
+    - This is the HTML element you used to access the attribute
+attr.parentNode
+    - This is the HTML element you used to access the attribute
+attr.previousSibling  
+    - Attributes don't have siblings
+attr.removeChild  
+    - Attributes don't have child nodes
+attr.replaceChild
+    - Attributes don't have child nodes
+attr.textContent  
+    - Use attr.value instead
+</pre>
+</ul>
+<h2>NamedNodeMap object</h2>
+<pre>
+- represents an unordered collection of an elements attribute nodes.
+</pre>
         <!-- Footer -->
         <footer>
             <div class="row">
