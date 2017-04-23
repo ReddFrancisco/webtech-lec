@@ -79,8 +79,7 @@
 - marking up a text with meaning
 - used to create web pages
 - focus on content and structure
-- current HTML (5.1)
--developed by Tim Berners Lee
+- current HTML (5.1)-developed by Tim Berners Lee
 </pre>
 <li>Web Pages</li>
 <pre>
@@ -219,6 +218,150 @@ Properties:
 The later overrides previous declarations
 </pre>
 </uL>
+<h2>CSS Comments</h2>
+<pre>
+-/* */
+</pre>
+<h2>CSS Types of media (CSS 3)</h2>
+<pre>
+− Screen
+− Print
+− Speech
+</pre>
+<h2>CSS Statements</h2>
+<pre>
+At Rules:
+    @charset
+    @import
+    @namespace
+    @document
+    @font-face
+    @keyframe-animation
+    @media
+    @page
+</pre>
+<h2>CSS Rule Sets (aka CSS Rule)</h2>
+<pre>
+- Consists of a selector, followed by a declaration block, which contains zero or more semi colon (;) separated declarations, which in turn consists of a property name, followed by a property value.
+</pre>
+<h2>CSS Selector</h2>
+<ul>
+<li>Selector</li>
+<pre>
+-Structure used as a condition in a CSS rule to determine without element in the doc tree are matched by the selector.    
+</pre>
+<li>Selector Syntax</li>
+<pre>
+-chain of one or more sequences of simple selectors separated by comminatory, with 1 pseudo element possibly appended in the last sequence
+</pre>
+<pre>
+Example: dir#abc>p.xyz[title]+span:last-of-type::after
+  dir           – type selector
+  #abc          – ID Selector
+  >             - Combinators
+  p             – paragraph (type)
+  .xyz          – class selector
+  +             - adjacent
+  span          – type selector
+  :last-of-type – pseudo class
+  ::after       – pseudo element
+</pre>
+<h2>Sequence of simple selector</h2>
+<pre>
+-Chain of simple selectors
+</pre>
+<h2>Group of selectors</h2>
+<pre>
+-Comma-separated list of selectors representing the union of all elements selected by each selector
+</pre>
+<li>Simple Selector</li>
+<pre>
+-Type Selector
+-Universal Selector:
+    a.p{}
+    b.h1{}
+-Attribute Selector:
+    a.[attr]
+    b.[attr=val]
+    c.[attr~=val]
+    d.[attr|=val]
+    e.[attr^=val]
+    f.[attr$=val]
+    g.[attr*=val]
+-Class Selector
+-ID Selector:
+    -Pseudo-class:
+    a.Dynamic pseudo-calass
+        1.Link pseudo-class
+          i.:link
+          ii.:visited
+        2.User action pseudo-class
+          i.:target (css3)
+
+    b.Target pseudo-class
+        1. :lang()
+
+    c.UI element states pseudo-class
+        1.:enabled
+        2.:disabled:
+        3.:checked
+        4.intermediate
+
+    d.Structural Pseudo classes
+        1.:root
+        2.:first-child (css3)
+        3.:last-child (css3)
+        4.:only-child (css3)
+        5.:nth-child (css3)
+        6.:nth-child() (css3)
+        7.:nth-last-child() (css3)
+        8.:first-of-type(css3)
+        9.:last-of-type (css3)
+        10.:only-of-type (css3)
+        11.:nth-of-type() (css3)
+        12.:nt-last-of-type() (css3)
+        13.:empty
+    e.Negation pseudo-class
+        1.:not (css3)
+          -Combinators
+            a.Descendant combinators (white space; space, tab, line feed, carriage, return from feed)
+            b.Child combnators (>)
+            c.Sibling combinators
+                1.Adjacent sibling combinatory (+)
+                2.General sibling combinatory (~)
+            
+-Pseudo elements
+      a.::first-letter (css3), :first-letter
+      b.::first-line (css3), :first-line
+      c.::before (css3), :before
+      d.::after (css3), :after
+</pre>
+</ul>
+<h2>CSS Declaration</h2>
+<ul>
+<li>Properties</li>
+<pre>
+- shorthand properties
+- vendor specific extensions (vendor-prefix)
+</pre>
+<li>Values</li>
+<pre>
+    @keywords
+    @numbers 
+       :z-index
+    @dimensions 
+       - numbers with units
+       - lengths, angles, duration, frequency, and resolution
+       - length units
+    @percentages
+    @URLs and URIs
+    @colors
+    @strings
+    @functions
+       : calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate(), etc.
+</pre>
+</ul>
+
         <!-- Footer -->
         <footer>
             <div class="row">
