@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head> 
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -66,45 +66,69 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Midterms
+                <h1><b>Webtek Midterm Notes</b>
                 </h1>
             </div>
         </div>
         <!-- /.row -->
         
 <h2>HTML</h2>
+<hr>
 <ul>
+
 <pre>
-- markup language
-- marking up a text with meaning
-- used to create web pages
-- focus on content and structure
-- current HTML (5.1)-developed by Tim Berners Lee
+- HyperText Markup language
+- Marking up a text with meaning
+- Used to create web pages
+- Focus on content and structure
+- current HTML (5.1)-developed by <b> Tim Berners Lee </b>
 </pre>
-<li>Web Pages</li>
+
+<li><b>HTML versions:</b></li>
+<pre>
+- HTML 1.0 
+- HTML 2.0 RFC 1866
+- HTML <strike>3.0</strike>
+       3.2
+- HTML 4.0 - 1997
+       4.1 - 1999
+       5.0 - 2014
+       5.1 - November 1, 2016
+- <b>XHTML</b>
+  X meaning Extensible
+- XHTML 1.0 - 2000, January revised on August 1,2002
+        1.1
+        2.0
+</pre>
+
+<li><b>Web Pages</b></li>
 <pre>
 - HTML file
 - Content that is marked up properly
 - w3c word wide web consortium -1995 developed
 - w3c recommendation official documents.
 </pre>
+
 </ul>
 <h2>CSS(Cascading Style Sheets)</h2>
+<hr>
 <ul>
 <pre>
-- Language used to specify the presentation aspects (e.g layout and formatting) of structurally marked up documents
-- developed by Hakon Wium Lie (HTML Cascading Style Sheets /CHSS) and Bert Bos (Stream-based Sheet Proposal / SSP)
-- Presentation aspects
+- Language used to specify the presentation aspects 
+  (e.g layout and formatting) of structurally marked up documents.
+- Developed by <b>Hakon Wium Lie</b> (HTML Cascading Style Sheets /CHSS). 
+  and Bert Bos (Stream-based Sheet Proposal / SSP).
+- Presentation/Aesthetics aspects.
 - CSS can be used in oral formatting.
 </pre>
-<li>Versions:</li>
+<li><b>Versions:</b></li>
 <pre>
 -CSS 1
 -CSS 2
 -CSS 2.1
 -CSS 3 (structural semantic markup/modularizes CSS 2.1)
 </pre>
-<li>Declaration Block</li>
+<li><b>Declaration Block</b></li>
 <pre>
 Properties:
     Visual, aural, paged, interactive
@@ -162,43 +186,46 @@ Properties:
 </pre>
 </ul>
 <h2>CSS Preprocessors</h2>
+<hr>
 <ul>
-<li>SASS</li>
+<li><b>SASS</b></li>
 <pre>
 − syntactically awesome style sheet
 − extension
 − most popular
 − developed on top of ruby
 </pre>
-<li>Less</li>
+<li><b>Less</b></li>
 <pre>
 − almost similar to SASS but it is on JavaScript
 − another popular preprocessor
 </pre>
-<li>SCSS</li>
+<li><b>SCSS</b></li>
 <pre>
 - nested syntax
 - you can declare variables
 - you can define a function
 </pre>
-<li>960 grade system</li>
+<li><b>960 grade system</b></li>
 <pre>
 − provides predefined format
 </pre>
-<li>Foundation</li>
-<li>Bootstrap</li>
-<li>Materialize</li>
+<li><b>Foundation</b></li>
+<li><b>Bootstrap</b></li>
+<li><b>Materialize</b></li>
 <li>etc.</li>
 </ul>
 <h2>CSS Frameworks</h2>
+<hr>
 <pre>
 − provides set of themes
 − Ex. Bootstrap:
     Offline Libraries
 </pre>
 <h2>CSS Rule Precedence</h2>
+<hr>
 <uL>
-<li>By origin and importance</li>
+<li><b>By origin and importance</b></li>
 <pre>
     -User important declarations
     -Author important declarations
@@ -206,29 +233,32 @@ Properties:
     -User normal declarations
     -User agent normal declarations
 </pre>
-<li>By Specifically</li>
+<li><b>By Specifically</b></li>
 <pre>
     -Inline styles (1) or not (0)
     -Number of ID attributes in selector
     -Number of other attributes and pseudo-classes in selector
     -Number of element names and pseudo-elements in selector
 </pre>
-<li>By order</li>
+<li><b>By order</b></li>
 <pre>
 The later overrides previous declarations
 </pre>
 </uL>
 <h2>CSS Comments</h2>
+<hr>
 <pre>
 -/* */
 </pre>
 <h2>CSS Types of media (CSS 3)</h2>
+<hr>
 <pre>
 − Screen
 − Print
 − Speech
 </pre>
 <h2>CSS Statements</h2>
+<hr>
 <pre>
 At Rules:
     @charset
@@ -241,21 +271,29 @@ At Rules:
     @page
 </pre>
 <h2>CSS Rule Sets (aka CSS Rule)</h2>
+<hr>
 <pre>
-- Consists of a selector, followed by a declaration block, which contains zero or more semi colon (;) separated declarations, which in turn consists of a property name, followed by a property value.
+- Consists of a selector, followed by a declaration block, 
+  which contains zero or more semi colon (;) separated declarations, 
+  which in turn consists of a property name, followed by a property 
+  value.
 </pre>
 <h2>CSS Selector</h2>
+<hr>
 <ul>
-<li>Selector</li>
+<li><b>Selector</b></li>
 <pre>
--Structure used as a condition in a CSS rule to determine without element in the doc tree are matched by the selector.    
+-Structure used as a condition in a CSS rule to determine without element in 
+ the doc tree are matched by the selector.    
 </pre>
-<li>Selector Syntax</li>
+<li><b>Selector Syntax</b></li>
 <pre>
--chain of one or more sequences of simple selectors separated by comminatory, with 1 pseudo element possibly appended in the last sequence
+-chain of one or more sequences of simple selectors separated by comminatory, 
+ with 1 pseudo element possibly appended in the last sequence.
 </pre>
 <pre>
-Example: dir#abc>p.xyz[title]+span:last-of-type::after
+Example: 
+<b>dir#abc>p.xyz[title]+span:last-of-type::after</b>
   dir           – type selector
   #abc          – ID Selector
   >             - Combinators
@@ -267,20 +305,23 @@ Example: dir#abc>p.xyz[title]+span:last-of-type::after
   ::after       – pseudo element
 </pre>
 <h2>Sequence of simple selector</h2>
+<hr>
 <pre>
--Chain of simple selectors
+- Chain of simple selectors
 </pre>
 <h2>Group of selectors</h2>
+<hr>
 <pre>
--Comma-separated list of selectors representing the union of all elements selected by each selector
+- Comma-separated list of selectors representing the union of all elements selected by each selector
 </pre>
-<li>Simple Selector</li>
+<li><b>Simple Selector</b></li>
 <pre>
--Type Selector
--Universal Selector:
+-<b>Type Selector</b>
+  Type of element targeted.
+-<b>Universal Selector:</b>
     a.p{}
     b.h1{}
--Attribute Selector:
+-<b>Attribute Selector:</b>
     a.[attr]
     b.[attr=val]
     c.[attr~=val]
@@ -288,26 +329,27 @@ Example: dir#abc>p.xyz[title]+span:last-of-type::after
     e.[attr^=val]
     f.[attr$=val]
     g.[attr*=val]
--Class Selector
--ID Selector:
+-<b>Class Selector</b>
+  Period and Class name.
+-<b>ID Selector:</b>
     -Pseudo-class:
-    a.Dynamic pseudo-calass
+   <i> a.Dynamic pseudo-class</i>
         1.Link pseudo-class
           i.:link
           ii.:visited
         2.User action pseudo-class
           i.:target (css3)
 
-    b.Target pseudo-class
+  <i>  b.Target pseudo-class</i>
         1. :lang()
 
-    c.UI element states pseudo-class
+ <i>   c.UI element states pseudo-class</i>
         1.:enabled
         2.:disabled:
         3.:checked
         4.intermediate
 
-    d.Structural Pseudo classes
+   <i> d.Structural Pseudo classes</i>
         1.:root
         2.:first-child (css3)
         3.:last-child (css3)
@@ -321,7 +363,7 @@ Example: dir#abc>p.xyz[title]+span:last-of-type::after
         11.:nth-of-type() (css3)
         12.:nt-last-of-type() (css3)
         13.:empty
-    e.Negation pseudo-class
+   <i> e.Negation pseudo-class</i>
         1.:not (css3)
           -Combinators
             a.Descendant combinators (white space; space, tab, line feed, carriage, return from feed)
@@ -330,7 +372,7 @@ Example: dir#abc>p.xyz[title]+span:last-of-type::after
                 1.Adjacent sibling combinatory (+)
                 2.General sibling combinatory (~)
             
--Pseudo elements
+-<b>Pseudo elements</b>
       a.::first-letter (css3), :first-letter
       b.::first-line (css3), :first-line
       c.::before (css3), :before
@@ -338,13 +380,14 @@ Example: dir#abc>p.xyz[title]+span:last-of-type::after
 </pre>
 </ul>
 <h2>CSS Declaration</h2>
+<hr>
 <ul>
-<li>Properties</li>
+<li><b>Properties</b></li>
 <pre>
 - shorthand properties
 - vendor specific extensions (vendor-prefix)
 </pre>
-<li>Values</li>
+<li><b>Values</b></li>
 <pre>
     @keywords
     @numbers 
@@ -358,12 +401,15 @@ Example: dir#abc>p.xyz[title]+span:last-of-type::after
     @colors
     @strings
     @functions
-       : calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), translate(), scale(), rotate(), etc.
+       : calc(), attr(), counter(), counters(), linear-gradient(), radial-gradient(), 
+         translate(), scale(), rotate(), etc.
 </pre>
 </ul>
 <h2>XHTML Style Sheets</h2>
+<hr>
 <ul>
-<li>Author Styles</li>
+<li><b>Author Styles</b></li>
+
 <pre>
 - external stylesheets, embedded styles(inside the html), inline styles(inside the element)
 
@@ -374,49 +420,50 @@ Example: dir#abc>p.xyz[title]+span:last-of-type::after
         - Preferred
         - Alternate
 </pre>
-<li>User Styles</li>
+<li><b>User Styles</b></li>
 <pre>
-- depends on the browser
-- style that user is browsing the site.
+- Depends on the browser
+- Style that user is browsing the site.
 </pre>
-<li>User agent styles (ex: default css2.1 stylesheet for html4)</li>
+<li><b>User agent styles (ex: default css2.1 stylesheet for html4)</b></li>
 <pre>
--embedded
+- Embedded
 </pre>
-<li>Reset CSS</li>
+<li><b>Reset CSS</b></li>
 <pre>
-- create style sheet and apply or link to project, this will override the user agent style
+- Create style sheet and apply or link to project, this will override the user agent style
 </pre>
 </ul>
 <h2>JAVASCRIPT</h2>
+<hr>
 <ul>
 <pre>
-- imperative programming language
-- object oriented
-- properties can be overriden
-- just like java an c# 
-- storing data in  a variable 
-- weakly-typed language
+- Imperative programming language
+- Object oriented
+- Properties can be overriden
+- Just like java an c# 
+- Storing data in  a variable 
+- Weakly-typed language
 - Client side scripting which is associated with the web pages, it is by far the most used client side .
 </pre>
-<li>3 keyword</li>
+<li><b>3 keyword</b></li>
 <pre>
 var - accessible outside the block and can be declared
 let - cannot be declared and cannot be used outside a block
-const - same behaviro as let but you cannot modify it
+const - same behavior as let but you cannot modify it
 </pre>
-<li>A constant</li>
+<li>A <b>constant</b></li>
 <pre>
 - same behavior
 - cannot be represent its variable
 - it is contstant
 </pre>
-<li>Two Types in Javascript</li>
+<li><b>Two Types in Javascript</b></li>
 <pre>
 1. simple / primitive
 2. object
 </pre>
-<li>Primitive Types</li>
+<li><b>Primitive Types</b></li>
 <pre>
 Boolean
  -Falsy value
@@ -424,7 +471,7 @@ Undefined
  - anything that is undefined like null, 0 ,none
 
 </pre>
-<li>3 Different Ways of linking javascript</li>
+<li><b>3 Different Ways of linking javascript</b></li>
 <ul>
 <li>External Script</li>
 <pre>
@@ -458,24 +505,27 @@ async -as soon as the script becomes available it will be executed.
 </ul>
 </ul>
 <h2>Interface Definition Language (IDL)</h2>
-<pre>-definition of a data type</pre>
+<hr>
+<pre>- Definition of a data type</pre>
 <h2>Node Interface</h2>
+<hr>
 <pre>
--primary datatype for the entire DOM
--represent a single node in the document tree
--all the nodes have their own characteristics.
+- Primary datatype for the entire DOM.
+- Represent a single node in the document tree.
+- All the nodes have their own characteristics.
 </pre>
 <h2>Environment</h2>
+<hr>
 <ul>
 <li>Window</li>
 <pre>
--global object
+- Global object
 
 navigator - vendor, appVersion
 screen
 window.document
 
-example:
+<b>Example:</b>
 h.lang = 'en.US'
 h.textContent -prints as literal value
 h.innerText -print as literal value
@@ -643,15 +693,15 @@ document.activeElement
 </ul>
 <h2>DOMC</h2>
 <pre>
--Document Object Model Core
+- Document Object Model Core
 </pre>
 <h2>Element Object</h2>
 <pre>
--represents an HTML element
+- Represents an HTML element
 </pre>
 <h2>NodeList Object</h2>
 <pre>
-- represents a list of nodes.
+- Represents a list of nodes.
 </pre>
 <li>**Properties and Methods**</li>
 <pre>
@@ -821,7 +871,7 @@ nodelist.length
 <h2>Attr Object</h2>
 <ul>
 <pre>
--represents an HTML attribute
+-Represents an HTML attribute.
 </pre>
 <li>**Properties and Methods**</li>
 <pre>
@@ -899,14 +949,15 @@ attr.textContent
 </pre>
 </ul>
 <h2>NamedNodeMap object</h2>
+<hr>
 <pre>
-- represents an unordered collection of an elements attribute nodes.
+- Represents an unordered collection of an elements attribute nodes.
 </pre>
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Webtek.com</p>
                 </div>
             </div>
         </footer>
