@@ -28,6 +28,7 @@
 
 .sidenav h3{
     padding-left: 80px;
+    color: white;
 }
 
 .sidenav hr{
@@ -57,6 +58,7 @@
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
+    top: 250px;
     padding: 20px;
 }
 
