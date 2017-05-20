@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Webtek Midterms</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- main CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="prelims.html">Prelims</a>
+                            </li>
+                            <li>
+                                <a href="midterms.html">Midterms</a>
+                            </li>
+                            <li>
+                                <a href="finals.html">Finals</a>
+                            </li>
+					        <li>
+                                <a href="#">About us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- /. sidenav -->
+    <div id="sidenav" class="sidenav">
+        <h3>Outline</h3>
+        <hr>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <div class="outlines">
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#cssPre">CSS Preprocessors</a>
+            <a href="#cssFra">CSS Frameworks</a> 
+            <a href="#cssRul">CSS Rule Precedence</a>
+            <a href="#cssCom">CSS Comments</a>
+            <a href="#cssTyp">CSS Type of Media</a>
+            <a href="#cssSta">CSS Statements</a>
+            <a href="#cssRS"">CSS Rule Sets</a>
+            <a href="#cssSel">CSS Selector</a>
+            <a href="#cssDec">CSS Declaration</a>
+            <a href="#xhtml">XHTML Style Sheets</a>
+            <a href="#js">Javascript</a>
+            <a href="#IDL">Interface Definition Language</a>
+            <a href="#nodeInterface">Node Interface</a>
+            <a href="#environment">Environment</a>
+            <a href="#DOMC">DOMC</a>
+            <a href="#elementObj">Element Object</a>
+            <a href="#nodeList">NodeList Object</a>
+            <a href="#attrObj">Attr Object</a>
+            <a href="#NamedNodeMap">NameNodeMap Object</a>
+        </div>
+        <footer class="side-bar-footer"></footer>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <span class="btn btn-default btn-fixed"onclick="openNav()"><span class="glyphicon glyphicon-th-list"> Outline</span></span>
+
+    <div id="main">
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1><b>Webtek Finals Notes</b>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+ 
+ <div class="notes">     
+<h1>Server-side Scripting</h1>
+<p>Server-side scripting is a method of designing websites so that the process or user request is run on the originating server. Server-side scripts provide an interface to the user and are used to limit access to proprietary data and help keep control of the script source code. Below is an example of client-side scripts vs. server-side scripts.</p>
+</div>
+
+<div class="notes">
+<h3>POPULAR SERVER-SIDE LANGUAGES:</h3>
+<ul>
+	<li>PHP</li>
+	<li>PYTHON</li>
+	<li>RUBY</li>
+	<li>C#</li>
+	<li>C++</li>
+	<li>Java</li>
+	<li>Erlang</li>
+</ul>
+</div>
+
+<div class="notes">
+<h1>Servlets</h1>
+<ul>
+	<li>Java Object based on the Servlet API </li>
+	<li>Runs in a server application to answer client requests; technically, servlets are not tied to a specific client-server protocol, but they are most commonly used with HTTP and the term „servlet‟ is often used in the context of an “HTTP Servlet” </li>
+	<li>Web-tier components in the Java EE architecture</li>
+	<li>Runs in, and is managed by, a web-tier container called the „Servlet Container‟ </li>
+	<li>Mapped to URLs to which clients send requests </li>
+	<li>Typically asked with (among other things) 
+o	Processing and/or storing data submitted vial HTML forms 
+o	Generating dynamic content 
+</li>
+</ul>
+</div>
+
+
+<div class="notes">
+<h3>javax.servlet Interface Package</h3>
+<ul>
+	<li>Filter</li>
+	<li>Filter Chain</li>
+	<li>Filter Config</li>
+	<li>RequestDispatcher</li>
+	<li>Servlet</li>
+	<li>ServletConfig</li>
+	<li>ServletContext</li>
+	<li>ServletContextAttributeListener</li>
+	<li>ServletContextListener</li>
+	<li>ServletRequest</li>
+	<li>ServletRequestAttributeListener</li>
+	<li>ServletResponse</li>
+	<li>Single ThreadModel</li>
+</ul>
+</div>
+
+<div class="notes">
+	<h3>javax.servlet.http Interface Package</h3>
+	<ul>
+		<li>HttpServletRequest</li>
+		<li>HttpServletResponse</li>
+		<li>HttpSession</li>
+		<li>Sessionlistener</li>
+		<li>HttpSessionAttributeListener</li>
+		<li>HttpSessionBindingListener</li>
+		<li>HttpSessionActivationListener</li>
+		<li>HttpSessionContext (deprecated now)</li>
+	</ul>
+</div>
+
+<div class="notes">
+<h3>javax.servlet.http Classes package</h3>	
+<ul>
+	<li>HttpServlet</li>
+	<li>Cookie</li>
+	<li>HttpServletRequestWrapper</li>
+	<li>HttpServletResponseWrapper</li>
+	<li>HttpSessionEvent</li>
+	<li>HttpUtils(deprecated now)</li>
+</ul>
+</div>
+
+<div class="notes">
+<h3>Servlet Processing</h3>
+<ul>
+	<li>Client sends a request to a web server URL that is mapped to a servlet. Web server passes on the request to the servlet container </li>
+	<li>Servlet container checks if servlet is already loaded </li>
+	<li>If it is not yet loaded, servlet container loads the servlet class and instantiates the servlet, and calls its init method. </li>
+	<li>Servlet container invokes the servlet’s service method, passing request and response objects as arguments </li>
+	<li>Servlet processes the request using the response object to create the response, which is returned by the servlet container to the web server, which in turn sends the response to the client </li>
+	<li>Subsequent request to the servlet will not require servlet re-instantiation, unless the servlet has been unloaded; before a servlet is unloaded, the servlet container invokes its destroy method. </li>
+</ul>
+
+</div>
+
+
+<div class="notes">
+<h1>JavaServer Pages</h1>
+<ul>
+	<li>Simply an HTML web page that contains additional bits of code that execute application logic to generate dynamic content. </li>
+	<li>Java Server Pages Actions (JSP tags) perform a variety of functions and extend the capabilities of JSP. </li>
+	<li>Java Server Pages Actions use XML-like syntax, and are used to manage JavaBeans component. </li>
+	<li>Directives are instructions that are processed by the JSP engine when the page is compiled to a servlet. /li>
+	<li>Directives are used to set page-level instructions, insert data from external files, and specify custom tag libraries 
+o	 <%@ 			%> 
+	</li>
+	<li>Features</li>
+	<ul>
+		<li>Text-based document capable of generating both static and dynamic content (typically intermixed) </li>
+
+		<li>Mark-up based document syntax (JSP-style or XML-style), combining (X) HTML elements as well as standard and custom JSP elements; thus, web page authors can feel right “at home” with the mark-up syntax. </li>
+		<li>Embedded Java Coding support via “scriptlets” <% 			%> 
+		<li>Template text are converted into JSPWriter </li>
+</li>
+	</ul>
+
+	<li>Scriplets</li>
+	<li>Actions</li>
+	<ul>
+		<li>Standard Actions</li>
+
+		<ul>
+			<li>< jsp:directive.include >,
+			< jsp:directive.page ></li>
+		</ul>
+	</ul>
+		<li>Custom Actions(JSTL)</li>
+		<ul>
+			<li>JSTL, use-written custom tag libraries</li>
+		</ul>
+
+		<li>Expression Language (EL)</li>
+		<ul>
+			<li>${ 		} </li>
+		</ul>
+		<li>Implicit Scripting Ojects</li>
+		<ul>
+	<li>Request, Response, out, pageContext</li>
+	<li>session, application, config</li>
+	<li>page, exception</li>
+</ul>
+
+		<li>Implicit EL Objects</li>
+		<ul>
+			<li>pageContext</li>
+			<li>pageScope</li>
+			<li>requestScope</li>
+			<li>sessionScope</li>
+			<li>applicationScope</li>
+			<li>param, paramValues</li>
+			<li>header, headervalues</li>
+			<li>cookie</li>
+			<li>initparam</li>
+		</ul>
+
+
+		<li>Comments</li>
+		<ul>
+			<li><%-- This is a JSP comment  --%></li>
+		</ul>
+
+</ul>
+
+</div>
+
+
+
+<div class="notes">
+	<h1>PHP</h1>
+	<p>PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.</p>
+
+	<h3>Session-related Functions</h3>
+	<ul>
+		<li>session_destroy — Destroys all data registered to a session</li>
+		<li>session_id — Get and/or set the current session id</li>
+		<li>session_unset — Free all session variables</li>
+		<li>session_start — Start new or resume existing session</li>
+		<li>session_reset — Re-initialize session array with original values</li>
+		<li>session_abort — Discard session array changes and finish session</li>
+		<li>session_create_id — Create new session id</li>
+		<li>session_get_cookie_params — Get the session cookie parameters</li>
+		<li>session_status — Returns the current session status</li>
+		<li>session_write_close — Write session data and end session</li>
+	</ul>
+
+	<h3>SuperGlobals</h3>
+	<p>Superglobals are built-in variables that are always available in all scopes</p>
+<ul>
+	<li>$GLOBALS</li>
+	<li>$_SERVER</li>
+	<li>$_GET</li>
+	<li>$_POST</li>
+	<li>$_FILES</li>
+	<li>$_REQUEST</li>
+	<li>$_SESSION</li>
+	<li>$_COOKIE</li>
+	<li>$_ENV</li>
+</ul>
+
+
+</div>
+
+<div class="notes">
+	<h1>NodeJS</h1>
+	<h3>The Built-in HTTP module</h3>
+	<p>Node.js has a built-in module called HTTP, which allows Node.js to transfer data over the Hyper Text Transfer Protocol (HTTP).
+To include the HTTP module, use the require() method:
+</p>
+
+<p>Ex. var http = require('http');</p>
+
+<h3>NodeJS as a Web Server</h3>
+<p>The HTTP module can create an HTTP server that listens to server ports and gives a response back to the client.</p>
+<p>Use the createServer() method to create an HTTP server:</p>
+<p>Example: </p>
+<p>var http = require('http');</p>
+
+
+</div>
+
+<div class="notes">
+	<h1>OWASP TOP 10 APPLICATION SECURITY RISK 2017</h1>
+	<ul>
+		<li>A1-Injection</li>
+		<li>A2-Broken Authentication and Session Management</li>
+		<li>A3-Cross-Site Scripting (XSS)</li>
+		<li>A4-Broken Access Control</li>
+		<li>A5-Security Misconfiguration</li>
+		<li>A6-Sensitive Data Exposure</li>
+		<li>A7-Insufficient Attack Protection</li>
+		<li>A8-Cross-Site Request Forgery (CSRF)</li>
+		<li>A9-Using Components with Known Vulnerabilities</li>
+		<li>A10-Underprotected APIs</li>
+	</ul>
+
+
+</div>
+
+
+<h3>References:</h3>
+<p>https://www.computerhope.com/jargon/s/server-side-scripting.htm</p>
+<p>https://www.upwork.com/hiring/development/server-side-scripting-back-end-web-development-technology/</p>
+<p>https://docs.oracle.com/cd/E17904_01/web.1111/e13712/basics.htm#WBAPP121</p>
+<p>https://tomcat.apache.org/tomcat-5.5-doc/servletapi/</p>
+<p>https://www.javatpoint.com/servlet-api</p>
+<p>https://docs.oracle.com/cd/E17904_01/web.1111/e13712/basics.htm#WBAPP117</p>
+<p>http://php.net/manual/en/intro-whatis.php</p>
+<p>http://php.net/manual/en/ref.session.php</p>
+<p> https://www.w3schools.com/nodejs/nodejs_http.asp</p>
+<p>https://www.owasp.org/index.php/Top_10_2017-Top_10</p>
+
+
+
+
+        <!-- Footer -->
+        <hr>
+          <footer>
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <p>Copyright &copy; Webtek.com</p>
+                  </div>
+              </div>
+          </footer>
+
+      </div>
+      <!-- /.container -->
+
+    </div> <!-- end of main -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
