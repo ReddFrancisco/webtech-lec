@@ -1,6 +1,6 @@
 body{
-    background-color: #212F3D;
-    color: #D87440;
+    background-color: #BFB5B0;
+    color: #000;
 }
 5.btn-fixed{
     position: fixed;
@@ -80,20 +80,16 @@ pre{
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
-.navbar-header{
-    
-}
-
 .notes{
     border-radius: 10px;
-    background-color: #CF9C51;
+    background-color: #212F3D;
     padding: 10px;
     margin-bottom: 10px;
-    color: #273746;
+    color: #FFF;
 }
 
 .notes h2{
-    color: #273746;
+    color: #FFF;
 }
 
 .notes table{
@@ -105,7 +101,7 @@ pre{
 }
 
 .notes b{
-    color: #273746;
+    color: #FFF;
 }
 
 .notes td{
@@ -115,7 +111,7 @@ pre{
 
 .notes pre{
     background-color: inherit;
-    color: #273746;
+    color: #FFF;
     font-size: 1em;
     border: 0px;
 }
@@ -126,18 +122,14 @@ pre{
 }
 
 .well{
-    background-color: #34495E;
+    background-color: #212F3D;
     border: 0px;
     border-radius: 10px;
     width: 87%;
     margin: auto;
+    color: #FFF;
 }
 
-.homeColor{
-    background-color: #5D6D7E !important;
-}
-
-.container{}
 
 
 
