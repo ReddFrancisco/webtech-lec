@@ -27,7 +27,6 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -62,6 +61,7 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
+        </div>
         <!-- /.container -->
     </nav>
 	
@@ -78,7 +78,7 @@
             <a href="#iana">IANA</a>
             <a href="#email">E-mail</a>
             <a href="#html">HTML</a>
-            <a href="#http"">HTTP</a>
+            <a href="#http">HTTP</a>
             <a href="#https">HTTPS</a>
             <a href="#cs-steps">Client-Server Steps</a>
         </div>
@@ -102,266 +102,321 @@
 			<!-- /.row -->
 
 			<!-- Intro Content -->
-			<div class="row">
+			<div class="row wow fadeInUp">
 				<div class="col-md-12">
-			
-<h2 id="theInternet">The Internet</h2>
-<hr>
-<pre>
-- Internet is a massive network of networks.
-- It was brought online year 1969.
+                    <div class="notes">			
+                        <h2 id="theInternet">The Internet</h2>
+                        <p>- Internet is a massive network of networks.</p>
+                        <p>- It was brought online year 1969.</p>
+                        <table>
+                            <tr>
+                                <td><b>Nodes</b></td>
+                                <td>- The actual devices (computer,loptops).</td>
+                            </tr>
+                            <tr>
+                                <td><b>Inter</b></td>
+                                <td>- Outside the boundaries.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Intra</b></td>
+                                <td>- Inside the boundaries</td>
+                            </tr>
+                            <tr>
+                                <td><b>Protocols</b></td>
+                                <td>- Operate many devices.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Protocols</b></td>
+                                <td><b>Serial wire</b> - One wire that sends data one at a time.</td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td><b>IPv4</b></td>
+                                <td>- 32bit Address</td>
+                            </tr>
+                            <tr>
+                                <td><b>IPv6</b></td>
+                                <td>- 64bit Address</td>
+                            </tr>
+                        </table>
+                        <p><b>Gopher</b> - Protocol desgined on retrieving documents over the internet.</p>
+                        <p>- Gopher's hierarchical structure provided a platform for the first large-scale electronic library connections.</p>
+                        <p><b>Usenet</b> - Online bulletin boards</p>
+                        <p>- Discussion system available on computers.</p>			
+                    </div>
+                    
+                    <div class="notes">
+                        <h2 id="worldWideWeb">World Wide Web</h2>
+                        <hr>
+                        <p>- Invented in 1989 by Sir <b>Tim Berners-Lee</b></p>
+                        <p>- Retrieving documents using the Internet</p>
+                        <p>- Global information medium which users can read and write via computers connected to the internet.</p>
+                        <p>- The term is often mistakenly used as a synonym for the internet itself, 
+                          but the web is a service that operates over the internet, as e-mail does.</p>
+                    </div>
+                    <div class="notes">
+                        <h2 id="wais">WAIS(Wide Area Information Servers)</h2>
+                        <hr>
+                        <p>- Developed late 1980's</p>
+                        <p>- WAIS is a client-server text searching system that uses ANSI standard and protocol specificationsto search index databases on remote computers.</p>
+                    </div>
+                    <div class="notes">
+                        <h2 id = "darpa">DARPA(Defense Advance Research Projects Agency</h2> 
+                        <hr>  
+                            <p>- A military agency</p>
+                            <p>- Responsible for the development of emerging technologies to be used by the military.</p>
+                            
+                            <p><b>Circuit switch</b> - established circuit for communication.</p>
+                    </div>
+                    <div class="notes">
+                        <h2 id="arpanet">ARPANET(Advance Research Projects Agency Network)</h2> 
+                        <hr>
+                        <p>Technologies that became foundation of the internet</p>
+                        <p>- First network to implement the protocol suite TCP/IP.</p>
+                        <p>- Early packet switching network.</p>
+                    </div>
+                    <div class="notes">
+                        <h2 id="iana">IANA(Internet Assigned Numbers Authority)</h2>
+                        <p>- controls numbers for protocols, the Country Code Top Level Domains and maintains the IP Address allotments.</p>
+                    </div>
+                    <div class="notes">
+                        <h2 id="email">E-mail(1972)</h2>
+                        <hr>
+                        <p>- E-mail is a method of exchanging digital messages across people by using a device such as computer.</p>
+                    </div>
+                    <div class="notes">                                           
+                        <h2 id="html">HTML(Hypertext Markup Language)</h2> 
+                        <hr>             
+                        <p>- Markup language used to create web pages</p>
+                        <p>- focus on content and structure</p>
+                        - Language used to markup documents (i.e web pages) in the WWW
+                            - Structure (and content)
+                            - Presentation (mostly deprecated in favor of style sheets)
+                        
+                        <ul class="prelimsContent">
+                            <li>Web Pages</li>
+                            <li>Webpage documents written in HTML</li>
+                        </ul>    
+                    </div>
+                    <div class="notes">
+                        <h2 id="http">HTTP(Hypertext Transfer Protocol)</h2> 
+                        <hr>   
+                        <p>- Foundation of data communication for the word wide web.</p>
+                        <p>- Application layer communication protocol used to access resources.</p>
+                        <p>- Foundation of data communication for the world wide web.</p>
+                        <p>- Uses a request-response standard protocol.</p>
+                        <p>- Runs over TCP/IP, client-server architecture.</p>
+                        <p>- A Stateless communications protocol.</p>
+                    </div>
+                    <div class="notes">
+                        <h2 id="https">HTTPS</h2> 
+                        <hr>
+                        <p>- HTTP that is running on a SSL/TLS (Secure Sockets Layer/Transport Layer Security).</p>  
+                    </div>
+                    <div class="notes">
+                        <h2 id="cs-steps">Client-Server Steps</h2>
+                        <hr>
+                        <p>1. Connection</p>
+                        <p>2. Request Message</p>
+                        <p>3. Response Message</p>
+                        <p>4. Disconnection</p>
+                        <hr>
 
-<b>Nodes</b> - The actual devices (computer,loptops).
-<b>Inter</b> - Outside the boundaries.
-<b>Intra</b> - Inside the boundaries
-<b>Protocols</b> - Operate many devices.
-<b>Serial wire</b> - One wire that sends data one at a time.
+                        <ul class="prelimsContent">
+                            <li>HTTP provides support for other personalities:</li>
+                                <p>cache control</p>
+                                <p>content media type(MIME)</p>
+                                <p>language and charater set specification</p>
+                                <p>content/transfer codings</p>
+                                <p>content negotiation</p>
+                                <p>client-server protocol negotiation</p>
+                                <p>persistent connections</p>
+                                <p>request pipelining (1 request after another)</p>
+                                <p>authentication/authorization</p>
 
-<b>IPv4</b> - 32bit Address
-<b>IPv6</b> - 64bit Address
-            
-<b>Gopher</b> - Protocol desgined on retrieving documents over the internet.
-       - Gopher's hierarchical structure provided a platform for the first 
-         large-scale electronic library connections.
-<b>Usenet</b> - Online bulletin boards
-       - Discussion system available on computers.
-</pre>			
-			
-<h2 id="worldWideWeb">World Wide Web</h2>
-<hr>
-<pre>
-- Invented in 1989 by Sir <b>Tim Berners-Lee</b>
-- Retrieving documents using the Internet
-- Global information medium which users can read and write via computers connected to the internet.
-- The term is often mistakenly used as a synonym for the internet itself, 
-  but the web is a service that operates over the internet, as e-mail does.
-</pre>
+                            <li>HTTP versions:</li>    
+                                <p>HTTP 0.9(1991)</p>
+                                <p>HTTP 1.0(RFC 1945, May 1996)</p>
+                                <p>HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 Jan 1999)</p>
+                                <p>(RFC 7230-7235, June 2014)</p>
+                                <p>HTTP 2  (RFC 7540 May 2015)</p>        
 
+                            <li>HTTP Resource Addressing</li>
+                                <p>HTTP resources are identified using URI's(RFC3986) or more specifically, HTTP URL'S(resource locator)</p>
+                                <p>Scheme(HTTP or HTTPS) designating protocol</p>
+                            
+                            <table>
+                                <tr>
+                                    <td><b>Authority</b></td>
+                                    <td>- uses information or authentication credentials</td>
+                                </tr>
+                                <tr>
+                                    <td><b>DNS</b></td>
+                                    <td>- Domain Name System</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Host</b></td>
+                                    <td>- domain name(resolved to an IP address using DNS) of the server where the resource resides.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Port number</b></td>
+                                    <td>- path to resource (resolved relative to the document root on the server). <br>- May refer to a stataic/dynamic resource</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Query</b></td>
+                                    <td>- typically provided as key=value pairs, with ampersand() separators between key/value pairs.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>URN</b></td>
+                                    <td>- Unified resource name</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Absolute URL</b></td>
+                                    <td>- Contains protocol in the name of the website. (eg. "https://google.com")</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Relative URL</b></td>
+                                    <td>- Path is generally refers to the same machine (eg. "documents/index.html")</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Fragment identifier</b></td>
+                                    <td> - sometimes called as bookmark, typically use in the browsers end.</td>
+                                </tr>
+                            </table>
 
-<h2 id="wais">WAIS(Wide Area Information Servers)</h2>
-<hr>
-<pre>
-- Developed late 1980's
-- WAIS is a client-server text searching system that uses ANSI standard and protocol specifications
-  to search index databases on remote computers.
-</pre>
+                            <li>HTTP Response Messages</li>
+                                <p>Status line</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;http protocol version</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;status code</p>    
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;reason phrase</p>        
+                                <p>Message headers</p>    
+                                <p>Empty line (CRLF)</p>
+                                <p>Message body (optional)</p>
 
-<h2 id = "darpa">DARPA(Defense Advance Research Projects Agency</h2> 
-<hr>  
-<pre>
-- A military agency
-- Responsible for the development of emerging technologies to be used by the military.
-            
-<b>Circuit switch</b> - established circuit for communication.
-</pre>    
-<h2 id="arpanet">ARPANET(Advance Research Projects Agency Network)</h2> 
-<hr>
-<pre>
-Technologies that became foundation of the internet
-- First network to implement the protocol suite TCP/IP
-- Early packet switching network.
-</pre>   
+                            <li>HTTP Request Messages</li>           
+                                <p>Request Line (CRLF - terminates line consisting three space-separated values)</p>
+                                <p>Method token</p>
+                                <p>Request URI</p>
+                                <p>Protocol version</p>
+                                <p>Message body (optional) - also known as payload</p>
 
-<h2 id="iana">IANA(Internet Assigned Numbers Authority)</h2>
-<pre>
-- controls numbers for protocols, the Country Code Top Level Domains and 
- maintains the IP Address allotments
-</pre>
-        
-<h2 id="email">E-mail(1972)</h2>
-<hr>
-<pre>- E-mail is a method of exchanging digital messages across people by using a device such as computer.</pre>
-<h2 id="html">HTML(Hypertext Markup Language)</h2> 
-<hr>             
-<pre>
-- Markup language used to create web pages
-- focus on content and structure
-- Language used to markup documents (i.e web pages) in the WWW
-    - Structure (and content)
-    - Presentation (mostly deprecated in favor of style sheets)
-</pre>
-<ul class="prelimsContent">
+                            <li>HTTP Request Methods</li>  
+                                <p>Standard Methods:(<b>GET,HEAD,POST,PUT,DELETE,OPTIONS,TRACE,CONNECT</b>)</p>
+  
+                            <table>
+                                <tr>
+                                    <td><b>GET</b></td>
+                                    <td>- transfer a current selected representation of the resource identified by the request URL;<br>the retrieved resource is returned in the message body at the response as an entity</td>
+                                </tr>
+                                <tr>
+                                    <td><b>HEAD</b></td>
+                                    <td>- retrieves metadata about the entity implied by the request without transferring the entity itself.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>HEAD</b></td>
+                                    <td>- retrieves metadata about the entity implied by the request without transferring the entity itself.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>POST</b></td>
+                                    <td>- perform resource-specific processing of the entities enclosed in the message.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>PUT</b></td>
+                                    <td>- store the enclosed entity in the message body under the specified request URI.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>DELETE</b></td>
+                                    <td>- remove the resource associated with the request URI</td>
+                                </tr>
+                                <tr>
+                                    <td><b>OPTIONS</b></td>
+                                    <td>- request information</td>
+                                </tr>
+                                <tr>
+                                    <td><b>TRACE</b></td>
+                                    <td>- request a loop-back of the request message, used for testing/diagnostic of the request/response chain.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>TRACE</b></td>
+                                    <td>- request a loop-back of the request message, used for testing/diagnostic of the request/response chain.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>CONNECT</b></td>
+                                    <td>- request the establishment of a tunnel to the destination origin server.</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Content-length</b></td>
+                                    <td>- usually in bytes</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Link rot</b></td>
+                                    <td>- links to an external resource, there’s a possibility that somebody will rot your website and it will be a broken link.</td>
+                                </tr>
+                            </table>
+                            <p><b>Safe</b> Methods:      (GET,HEAD,OPTIONS,TRACE)</p>
+                            <p><b>Idempotent</b> Methods:(GET,HEAD,PUT,DELETE,OPTIONS,TRACE)</p>   
 
-
-<li>Web Pages</li>
-<pre>Webpage documents written in HTML</pre>
-    
-</ul>    
-<h2 id="http">HTTP(Hypertext Transfer Protocol)</h2> 
-<hr>   
-<pre>- Foundation of data communication for the word wide web.
-- Application layer communication protocol used to access resources.
-- Foundation of data communication for the world wide web.
-- Uses a request-response standard protocol.
-- Runs over TCP/IP, client-server architecture.
-- A Stateless communications protocol.
-</pre>
-
-<h2 id="https">HTTPS</h2> 
-<hr>   
-<pre>
-- HTTP that is running on a SSL/TLS (Secure Sockets Layer/Transport Layer Security)  
-</pre>  
-
-<h2 id="cs-steps">Client-Server Steps</h2>
-<hr>
-<pre>
-1. Connection
-2. Request Message
-3. Response Message
-4. Disconnection
-</pre>
-
-<hr>
-
-<ul class="prelimsContent">
-<li>HTTP provides support for other personalities:</li>    
-<pre>
-cache control
-content media type(MIME)
-language and charater set specification
-content/transfer codings
-content negotiation
-client-server protocol negotiation
-persistent connections
-request pipelining (1 request after another)
-authentication/authorization
-</pre>
-<li>HTTP versions:</li>    
-<pre>
-HTTP 0.9(1991)
-HTTP 1.0(RFC 1945, May 1996)
-HTTP 1.1(RFC 2068 Jan 1997, RFC 2616 Jan 1999)
-        (RFC 7230-7235, June 2014)
-HTTP 2  (RFC 7540 May 2015)
-</pre>
-<li>HTTP Resource Addressing</li>
-<pre>
-HTTP resources are identified using URI's(RFC3986) or more specifically, HTTP URL'S(resource locator)
-Scheme(HTTP or HTTPS) designating protocol
-
-<b>Authority</b>   - uses information or authentication credentials
-<b>DNS</b>         - Domain Name System
-<b>Host</b>        - domain name(resolved to an IP address using DNS) of the server where the resource resides.
-<b>Port number</b> - path to resource (resolved relative to the document root on the server). 
-            - May refer to a stataic/dynamic resource
-<b>Query</b>       - typically provided as key=value pairs, with ampersand(&) separators between key/value pairs.
-<b>URN</b>         - Unified resource name
-	<b>Absolute URL</b>
-	- Contains protocol in the name of the website. (eg. "https://google.com")
-	<b>Relative URL</b>
-	- Path is generally refers to the same machine (eg. "documents/index.html")
-<b>Fragment identifier</b> - sometimes called as bookmark, typically use in the browsers end.
-</pre> 
-
-<li>HTTP Response Messages</li>
-<pre>
-Status line
-    http protocol version
-    status code
-    reason phrase
-Message headers
-Empty line (CRLF)
-Message body (optional)
-</pre>
-      
-<li>HTTP Request Messages</li>    
-<pre>Request Line (CRLF - terminates line consisting three space-separated values)
-Method token
-Request URI
-Protocol version
-Message body (optional) - also known as payload
-</pre>
-
-<li>HTTP Request Methods</li>    
-<pre>
-Standard Methods:(<b>GET,HEAD,POST,PUT,DELETE,OPTIONS,TRACE,CONNECT</b>)
-</pre>    
-<pre>
-<b>GET</b>      - transfer a current selected representation of the resource identified by the request URL;
-           the retrieved resource is returned in the message body at the response as an entity
-<b>HEAD</b>     - retrieves metadata about the entity implied by the request without transferring the 
-           entity itself.      
-<b>POST</b>     - perform resource-specific processing of the entities enclosed in the message.
-<b>PUT</b>      - store the enclosed entity in the message body under the specified request URI
-<b>DELETE</b>   - remove the resource associated with the request URI
-<b>OPTIONS</b>  - request information
-<b>TRACE</b>    - request a loop-back of the request message, used for testing/diagnostic of the 
-           request/response chain.
-<b>CONNECT</b>  - request the establishment of a tunnel to the destination origin server
-<b>Content-length</b> - usually in bytes
-
-<b>Link rot</b> - links to an external resource, there’s a possibility that somebody will rot your website 
-           and it will be a broken link.
-</pre> 
-<pre>
-<b>Safe</b> Methods:      (GET,HEAD,OPTIONS,TRACE)
-</pre>   
-<pre>
-<b>Idempotent</b> Methods:(GET,HEAD,PUT,DELETE,OPTIONS,TRACE)
-</pre>      
-
-<li>HTTP Message Headers</li> 
-<pre>(<b>General header fields, Request header fields, Response header fields and Entity header fields</b>)</pre>
+                            <li>HTTP Message Headers</li> 
+                            <p>(<b>General header fields, Request header fields, Response header fields and Entity header fields</b>)</p>
 <pre>
 <b>General Header Fields</b>
-        Cache control- local storage
-        Connection
-        Date
-        Pragma
-        Trailer
-        Transfer-Encoding
-        Upgrade protocol negotiation
-        Via
-        Warning
+Cache control- local storage
+Connection
+Date
+Pragma
+Trailer
+Transfer-Encoding
+Upgrade protocol negotiation
+Via
+Warning
 </pre>  
 <pre>
 <b>Request Header Fields</b>
-       Accept
-       Accept-charset
-       Accept-encoding
-       Accept-language
-       Authorization
-       Expect
-       From
-       Host
-       If-match
-       If-modified-since
-       If-none-match
-       If-range
-       If-unmodified-since
-       Max-forward
-       Proxy-authorization
-       Range
-       Referrer
-       User-agent
+Accept
+Accept-charset
+Accept-encoding
+Accept-language
+Authorization
+Expect
+From
+Host
+If-match
+If-modified-since
+If-none-match
+If-range
+If-unmodified-since
+Max-forward
+Proxy-authorization
+Range
+Referrer
+User-agent
 </pre>
 <pre>
 <b>Response Header Fields</b>
-        Accept-range
-        Age
-        E-tag
-        Location
-        Proxy-authenticate
-        Retry-after
-        Server
-        Vary
-        WWW-Authenticate
+Accept-range
+Age
+E-tag
+Location
+Proxy-authenticate
+Retry-after
+Server
+Vary
+WWW-Authenticate
 </pre>
 <pre>
 <b>Entity Header Fields</b>
-        Allow
-        Content-encoding
-        Content-language
-        Content-length
-        Content-location
-        Content-MD5
-        Content-range
-        Content-type
-        Expires
-        Last Modified
+Allow
+Content-encoding
+Content-language
+Content-length
+Content-location
+Content-MD5
+Content-range
+Content-type
+Expires
+Last Modified
 </pre>     
-    
     
 <li>HTTP Status Codes</li>        
 <pre><b>Informational(1xx)</b>
@@ -430,8 +485,9 @@ Standard Methods:(<b>GET,HEAD,POST,PUT,DELETE,OPTIONS,TRACE,CONNECT</b>)
 510 Note Extended
 511 Network Authentication Required
 </pre>        
-</ul>               
-                
+</ul>     
+                        </div>
+                    </div>
 				</div>
 			</div>
 			
@@ -462,7 +518,7 @@ Standard Methods:(<b>GET,HEAD,POST,PUT,DELETE,OPTIONS,TRACE,CONNECT</b>)
             </div>
         </footer>
 
-    </div>
+
 
 	<script type="text/javascript" src="js/main.js"></script>
     <script src="js/jquery.js"></script>
