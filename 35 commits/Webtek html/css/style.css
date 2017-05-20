@@ -1,4 +1,8 @@
-.btn-fixed{
+body{
+    background-color: #34495E;
+    color: white;
+}
+5.btn-fixed{
     position: fixed;
 }
 
@@ -75,3 +79,57 @@ pre{
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+.navbar-header{
+    
+}
+
+.notes{
+    border-radius: 10px;
+    background-color: #4a4a4a;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notes table{
+    margin-left: 2%;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #3498DB;  
+}
+
+.notes b{
+    color: #FFF;
+}
+.notes td{
+    width: auto;
+    padding: 15px;
+}
+
+.well{
+    background-color: #34495E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
