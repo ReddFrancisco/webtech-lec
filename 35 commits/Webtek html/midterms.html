@@ -76,7 +76,7 @@
             <a href="#cssCom">CSS Comments</a>
             <a href="#cssTyp">CSS Type of Media</a>
             <a href="#cssSta">CSS Statements</a>
-            <a href="#cssRS"">CSS Rule Sets</a>
+            <a href="#cssRS">CSS Rule Sets</a>
             <a href="#cssSel">CSS Selector</a>
             <a href="#cssDec">CSS Declaration</a>
             <a href="#xhtml">XHTML Style Sheets</a>
@@ -108,64 +108,60 @@
             </div>
         </div>
         <!-- /.row -->
-        
-<h2 id="html">HTML</h2>
-<hr>
-<ul>
+        <!-- Intro Content -->
+			<div class="row wow fadeInUp">
+				<div class="col-md-12">
+                    <div class="notes">
+                        <h2 id="html">HTML</h2>
+                        <hr>
+                        <ul>
 
-<pre>
-- HyperText Markup language
-- Marking up a text with meaning
-- Used to create web pages
-- Focus on content and structure
-- current HTML (5.1)-developed by <b> Tim Berners Lee </b>
-</pre>
+                            <p>- HyperText Markup language</p>
+                            <p>- Marking up a text with meaning</p>
+                            <p>- Used to create web pages</p>
+                            <p>- Focus on content and structure</p>
+                            <p>- current HTML (5.1)-developed by <b> Tim Berners Lee </b></p>
 
-<li><b>HTML versions:</b></li>
-<pre>
-- HTML 1.0 
-- HTML 2.0 RFC 1866
-- HTML <strike>3.0</strike>
-       3.2
-- HTML 4.0 - 1997
-       4.1 - 1999
-       5.0 - 2014
-       5.1 - November 1, 2016
-- <b>XHTML</b>
-  X meaning Extensible
-- XHTML 1.0 - 2000, January revised on August 1,2002
-        1.1
-        2.0
-</pre>
+                            <li><b>HTML versions:</b></li>
+                                <p>- HTML 1.0 </p>
+                                <p>- HTML 2.0 RFC 1866</p>
+                                <p>- HTML <strike>3.0</strike></p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;3.2</p>
+                                <p>- HTML 4.0 - 1997</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;4.1 - 1999</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;5.0 - 2014</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;5.1 - November 1, 2016</p>
+                                <p>- <b>XHTML</b></p>
+                                <p>X meaning Extensible</p>
+                                <p>- XHTML 1.0 - 2000, January revised on August 1,2002</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;1.1</p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;2.0</p>
 
-<li><b>Web Pages</b></li>
-<pre>
-- HTML file
-- Content that is marked up properly
-- w3c word wide web consortium -1995 developed
-- w3c recommendation official documents.
-</pre>
 
-</ul>
-<h2 id="css">CSS(Cascading Style Sheets)</h2>
-<hr>
-<ul>
-<pre>
-- Language used to specify the presentation aspects 
-  (e.g layout and formatting) of structurally marked up documents.
-- Developed by <b>Hakon Wium Lie</b> (HTML Cascading Style Sheets /CHSS). 
-  and Bert Bos (Stream-based Sheet Proposal / SSP).
-- Presentation/Aesthetics aspects.
-- CSS can be used in oral formatting.
-</pre>
-<li><b>Versions:</b></li>
-<pre>
--CSS 1
--CSS 2
--CSS 2.1
--CSS 3 (structural semantic markup/modularizes CSS 2.1)
-</pre>
-<li><b>Declaration Block</b></li>
+                            <li><b>Web Pages</b></li>
+                                <p>- HTML file</p>
+                                <p>- Content that is marked up properly</p>
+                                <p>- w3c word wide web consortium -1995 developed</p>
+                                <p>- w3c recommendation official documents.</p>
+                        </ul>
+                    </div>
+                    <div class="notes">                      
+                        <h2 id="css">CSS(Cascading Style Sheets)</h2>
+                        <hr>
+                        <ul>
+                            <p>- Language used to specify the presentation aspects</p>
+                            <p>&nbsp;&nbsp;(e.g layout and formatting) of structurally marked up documents.</p>
+                            <p>- Developed by <b>Hakon Wium Lie</b> (HTML Cascading Style Sheets /CHSS) and Bert Bos (Stream-based Sheet Proposal / SSP).</p>
+                            <p>- Presentation/Aesthetics aspects.</p>
+                            <p>- CSS can be used in oral formatting.</p>
+
+                            <li><b>Versions:</b></li>
+                                <p>-CSS 1</p>
+                                <p>-CSS 2</p>
+                                <p>-CSS 2.1</p>
+                                <p>-CSS 3 (structural semantic markup/modularizes CSS 2.1)</p>
+
+                            <li><b>Declaration Block</b></li>
 <pre>
 Properties:
     Visual, aural, paged, interactive
@@ -222,6 +218,8 @@ Properties:
                     b.khz
 </pre>
 </ul>
+                    </div>
+                    <div class="notes">
 <h2 id="cssPre">CSS Preprocessors</h2>
 <hr>
 <ul>
@@ -252,6 +250,8 @@ Properties:
 <li><b>Materialize</b></li>
 <li>etc.</li>
 </ul>
+                    </div>
+                    <div class="notes">
 <h2 id="cssFra">CSS Frameworks</h2>
 <hr>
 <pre>
@@ -259,34 +259,40 @@ Properties:
 − Ex. Bootstrap:
     Offline Libraries
 </pre>
+                    </div>
+                    <div class="notes">
 <h2 id="cssRul">CSS Rule Precedence</h2>
 <hr>
 <uL>
 <li><b>By origin and importance</b></li>
 <pre>
-    -User important declarations
-    -Author important declarations
-    -Author normal declarations
-    -User normal declarations
-    -User agent normal declarations
+-User important declarations
+-Author important declarations
+-Author normal declarations
+-User normal declarations
+-User agent normal declarations
 </pre>
 <li><b>By Specifically</b></li>
 <pre>
-    -Inline styles (1) or not (0)
-    -Number of ID attributes in selector
-    -Number of other attributes and pseudo-classes in selector
-    -Number of element names and pseudo-elements in selector
+-Inline styles (1) or not (0)
+-Number of ID attributes in selector
+-Number of other attributes and pseudo-classes in selector
+-Number of element names and pseudo-elements in selector
 </pre>
 <li><b>By order</b></li>
 <pre>
 The later overrides previous declarations
 </pre>
 </uL>
+                    </div>
+                    <div class="notes">
 <h2 id="cssCom">CSS Comments</h2>
 <hr>
 <pre>
 -/* */
 </pre>
+                    </div>
+                    <div class="notes">
 <h2 id="cssTyp">CSS Types of media (CSS 3)</h2>
 <hr>
 <pre>
@@ -294,6 +300,8 @@ The later overrides previous declarations
 − Print
 − Speech
 </pre>
+                    </div>
+                    <div class="notes">
 <h2 id="cssSta">CSS Statements</h2>
 <hr>
 <pre>
@@ -307,6 +315,8 @@ At Rules:
     @media
     @page
 </pre>
+                    </div>
+                    <div class="notes">
 <h2 id="cssRS">CSS Rule Sets (aka CSS Rule)</h2>
 <hr>
 <pre>
@@ -315,6 +325,8 @@ At Rules:
   which in turn consists of a property name, followed by a property 
   value.
 </pre>
+                    </div>
+                    <div class="notes">
 <h2 id="cssSel">CSS Selector</h2>
 <hr>
 <ul>
@@ -416,6 +428,8 @@ Example:
       d.::after (css3), :after
 </pre>
 </ul>
+                    </div>
+                    <div class="notes">
 <h2 id="cssDec">CSS Declaration</h2>
 <hr>
 <ul>
@@ -442,6 +456,8 @@ Example:
          translate(), scale(), rotate(), etc.
 </pre>
 </ul>
+                    </div>
+                    <div class="notes">
 <h2 id="xhtml">XHTML Style Sheets</h2>
 <hr>
 <ul>
@@ -471,6 +487,8 @@ Example:
 - Create style sheet and apply or link to project, this will override the user agent style
 </pre>
 </ul>
+                    </div>
+                    <div class="notes">
 <h2 id="js">JAVASCRIPT</h2>
 <hr>
 <ul>
@@ -512,8 +530,8 @@ Undefined
 <ul>
 <li>External Script</li>
 <pre>
-ex. < script type = 'text/javascript' src = 'script.js' >
-    < /script >(remove all spaces inside the tag)
+ex. <script type = 'text/javascript' src = 'script.js'>
+    </script>(remove all spaces inside the tag)
  > defer - bottom part
  > async - upper middle par
  > normal
@@ -524,7 +542,7 @@ ex. < script >
         console log();
         function callMe(){
         }
-    < /script > (remove all spaces inside the tag)
+    </script>(remove all spaces inside the tag)
 </pre>
 <li>Inline Script</li>
 <pre>
@@ -541,9 +559,13 @@ async -as soon as the script becomes available it will be executed.
 </pre>
 </ul>
 </ul>
+    </ul></ul></div>
+                    <div class="notes">
 <h2 id="IDL">Interface Definition Language (IDL)</h2>
 <hr>
 <pre>- Definition of a data type</pre>
+</div>
+                    <div class="notes">
 <h2 id="nodeInterface">Node Interface</h2>
 <hr>
 <pre>
@@ -551,6 +573,8 @@ async -as soon as the script becomes available it will be executed.
 - Represent a single node in the document tree.
 - All the nodes have their own characteristics.
 </pre>
+                        </div>
+                    <div class="notes">
 <h2 id="environment">Environment</h2>
 <hr>
 <ul>
@@ -631,13 +655,13 @@ document.activeElement
   document.adoptNode()
     - Adopts a node from another document
   document.anchors  
-    - Returns a collection of all < a > elements in the document that have a name attribute
+    - Returns a collection of all a elements in the document that have a name attribute
   document.applets
-    - Returns a collection of all < applet > elements in the document
+    - Returns a collection of all applet elements in the document
   document.baseURI
     - Returns the absolute base URI of a document
   document.body 
-    - Sets or returns the document's body (the < body > element)
+    - Sets or returns the document's body (the body element)
   document.close()
     - Closes the output stream previously opened with document.open()
   document.cookie   
@@ -659,7 +683,7 @@ document.activeElement
   document.doctype
     - Returns the Document Type Declaration associated with the document
   document.documentElement
-    - Returns the Document Element of the document (the < html > element)
+    - Returns the Document Element of the document (the html element)
   document.documentMode
     - Returns the mode used by the browser to render the document
   document.documentURI
@@ -669,9 +693,9 @@ document.activeElement
   document.domConfig
     - Obsolete. Returns the DOM configuration of the document
   document.embeds
-    - Returns a collection of all < embed > elements the document
+    - Returns a collection of all embed elements the document
   document.forms
-    - Returns a collection of all < form > elements in the document
+    - Returns a collection of all form elements in the document
   document.getElementById()
     - Returns the element that has the ID attribute with the specified value
   document.getElementsByClassName()
@@ -683,9 +707,9 @@ document.activeElement
   document.hasFocus()
     - Returns a Boolean value indicating whether the document has focus
   document.head
-    - Returns the < head > element of the document
+    - Returns the head element of the document
   document.images
-    - Returns a collection of all < img > elements in the document
+    - Returns a collection of all img elements in the document
   document.implementation
     - Returns the DOMImplementation object that handles this document
   document.importNode()
@@ -695,7 +719,7 @@ document.activeElement
   document.lastModified
     - Returns the date and time the document was last modified
   document.links
-    - Returns a collection of all < a > and < area > elements in the document that have a href attribute
+    - Returns a collection of all a and area elements in the document that have a href attribute
   document.normalize()
     - Removes empty Text nodes, and joins adjacent nodes
   document.normalizeDocument()
@@ -715,7 +739,7 @@ document.activeElement
   document.renameNode()
     - Renames the specified node
   document.scripts
-    - Returns a collection of < script > elements in the document
+    - Returns a collection of script elements in the document
   document.strictErrorChecking
     - Sets or returns whether error-checking is enforced or not
   document.title
@@ -728,14 +752,16 @@ document.activeElement
     - Same as write(), but adds a newline character after each statement 
 </pre>
 </ul>
-<h2 id="domc">DOMC</h2>
-<pre>
-- Document Object Model Core
-</pre>
-<h2 id="elementObj">Element Object</h2>
-<pre>
-- Represents an HTML element
-</pre>
+    </div>
+                    <div class="notes">
+                        <h2 id="domc">DOMC</h2>
+                        <p>- Document Object Model Core</p>
+                    </div>
+                    <div class="notes">
+                        <h2 id="elementObj">Element Object</h2>
+                        <p>- Represents an HTML element</p>
+                    </div>
+                        <div class="notes">
 <h2 id="nodeList">NodeList Object</h2>
 <pre>
 - Represents a list of nodes.
@@ -905,11 +931,11 @@ nodelist.item()
 nodelist.length
     - Returns the number of nodes in a NodeList
 </pre>
+                    </div>
+                    <div class="notes">
 <h2 id="attrObj">Attr Object</h2>
 <ul>
-<pre>
--Represents an HTML attribute.
-</pre>
+<p>-Represents an HTML attribute.</p>
 <li>**Properties and Methods**</li>
 <pre>
 attr.isId   
@@ -933,6 +959,7 @@ nodemap.setNamedItem()
 </pre>  
 <li>**Properties and Methods - attr with reason to avoid**</li>
 <pre>
+
 attr.appendChild()    
     - Attributes don't have child nodes
 attr.attributes
@@ -985,11 +1012,12 @@ attr.textContent
     - Use attr.value instead
 </pre>
 </ul>
-<h2 id="NamedNodeMap">NamedNodeMap object</h2>
-<hr>
-<pre>
-- Represents an unordered collection of an elements attribute nodes.
-</pre>
+                    </div>
+                    <div class="notes">
+                        <h2 id="NamedNodeMap">NamedNodeMap object</h2>
+                        <hr>
+                        <p>- Represents an unordered collection of an elements attribute nodes.</p>
+                    </div>
         <!-- Footer -->
           <footer>
               <div class="row">
@@ -999,7 +1027,9 @@ attr.textContent
               </div>
           </footer>
 
-      </div>
+                </div>
+        </div>
+        </div>
       <!-- /.container -->
 
     </div> <!-- end of main -->
