@@ -2,7 +2,6 @@
 TstTstTstTstTstTstTstTst
 TstTstTstTstTst Tst Tst TstTst
 AWS_ACCESS_KEY_ID = AKIA12345678910111213145
-TstTstTst
 AWS_SECRET_KEY_ID = 0sUiLpo3mNd5AfxBn76F2T5s2szxE2jOudTPsR40
 TstTstTstTstTstTstTstTst
 TstTst
@@ -10,8 +9,6 @@ Tst
 TstTstTst
 
 AWS_ACCESS_KEY_ID = None
-TstTst
-TstTstTst
 AWS_SECRET_KEY_ID = None
 Tst
 TstTstTstTst
